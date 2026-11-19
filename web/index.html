@@ -1,0 +1,1618 @@
+<!DOCTYPE html><html class="dark" lang="en" style="scroll-behavior: smooth;"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=5.0" name="viewport">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <meta name="theme-color" content="#050d10">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Amrith DE">
+  <meta name="format-detection" content="telephone=no"><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..900&amp;family=Plus+Jakarta+Sans:wght@100..900&amp;family=Space+Grotesk:wght@100..900&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&amp;family=Special+Elite&amp;display=swap" rel="stylesheet"><style>
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}@layer base{html,body{margin:0;padding:0;overflow-x:hidden;overflow-y:auto;}html{scroll-behavior:smooth;scroll-padding-top:5.5rem;}body{overscroll-behavior-y:auto;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{width:6px;}::-webkit-scrollbar-track{background:#10131a;}::-webkit-scrollbar-thumb{background:#32353c;border-radius:3px;}::-webkit-scrollbar-thumb:hover{background:#00f0ff;}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: {
+      spacing: {
+        'gutter': '1.25rem',
+      }, "colors": { "surface-container": "#1d2026", "secondary": "#aec6ff", "primary-fixed": "#7df4ff", "surface": "#10131a", "on-secondary-fixed": "#001a43", "on-error": "#690005", "on-tertiary-container": "#6d3bd7", "background": "#10131a", "on-primary-container": "#006970", "on-tertiary-fixed-variant": "#5516be", "surface-dim": "#10131a", "on-background": "#e0e2eb", "outline": "#849495", "surface-container-lowest": "#0b0e14", "tertiary-container": "#e1d2ff", "inverse-on-surface": "#2d3037", "tertiary-fixed": "#e9ddff", "on-primary-fixed": "#002022", "surface-variant": "#32353c", "surface-tint": "#00dbe9", "tertiary-fixed-dim": "#d0bcff", "surface-container-low": "#191c22", "surface-bright": "#363940", "secondary-fixed": "#d8e2ff", "on-tertiary": "#3c0091", "tertiary": "#faf3ff", "on-secondary-container": "#00275e", "secondary-container": "#508eff", "surface-container-high": "#272a31", "surface-container-highest": "#32353c", "on-primary-fixed-variant": "#004f54", "on-error-container": "#ffdad6", "inverse-surface": "#e0e2eb", "secondary-fixed-dim": "#aec6ff", "outline-variant": "#3b494b", "primary-fixed-dim": "#00dbe9", "error-container": "#93000a", "error": "#ffb4ab", "on-secondary-fixed-variant": "#004397", "on-surface": "#e0e2eb", "on-primary": "#00363a", "on-secondary": "#002e6b", "on-tertiary-fixed": "#23005c", "on-surface-variant": "#b9cacb", "primary": "#dbfcff", "inverse-primary": "#006970", "primary-container": "#00f0ff" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "gutter": "1.5rem", "space-lg": "1.5rem", "space-xs": "0.25rem", "margin-mobile": "1.25rem", "gutter-mobile": "1rem", "space-md": "1rem", "margin": "3rem", "space-sm": "0.5rem", "space-xl": "2.5rem" }, "fontFamily": { "body-lg": ["Plus Jakarta Sans"], "headline-hero-mobile": ["Space Grotesk"], "headline-lg-mobile": ["Space Grotesk"], "headline-lg": ["Space Grotesk"], "stat-counter": ["JetBrains Mono"], "body-sm": ["Plus Jakarta Sans"], "headline-hero": ["Space Grotesk"], "headline-sm": ["Space Grotesk"], "label-caps": ["JetBrains Mono"], "body-md": ["Plus Jakarta Sans"], "code-inline": ["JetBrains Mono"], "code-block": ["JetBrains Mono"], "headline-md": ["Space Grotesk"] }, "fontSize": { "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }], "headline-hero-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.03em", "fontWeight": "700" }], "headline-lg-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "600" }], "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.03em", "fontWeight": "600" }], "stat-counter": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "body-hero": ["64px", { "lineHeight": "72px", "letterSpacing": "-0.04em", "fontWeight": "700" }], "headline-sm": ["18px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "label-caps": ["11px", { "lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "600" }], "body-md": ["15px", { "lineHeight": "24px", "fontWeight": "400" }], "code-inline": ["13px", { "lineHeight": "18px", "fontWeight": "500" }], "code-block": ["14px", { "lineHeight": "22px", "fontWeight": "400" }], "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.02em", "fontWeight": "600" }] } } } }</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-fixed relative"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.5)] border-b border-outline-variant/20 transition-all duration-300">
+  <div class="h-20 max-w-[1280px] mx-auto px-gutter flex items-center justify-between gap-space-md">
+    <!-- Brand / Logo -->
+    <div class="flex items-center gap-space-lg">
+      <a class="flex items-center gap-space-xs group" data-path="overview" href="#overview" title="Top / Overview">
+        <span class="font-stat-counter text-stat-counter text-primary-container group-hover:text-primary transition-colors tracking-tight">AD</span>
+        <span class="font-code-inline text-code-inline text-outline-variant">//</span>
+      </a>
+    </div>
+
+    <!-- Desktop Navigation Menu -->
+    <nav class="hidden md:flex items-center gap-1 sm:gap-1.5 p-1 bg-surface-container-lowest/80 border border-outline-variant/30 rounded-lg backdrop-blur-md" id="desktop-nav">
+      <a class="nav-item px-3.5 py-1.5 rounded font-body-sm text-body-sm text-on-surface-variant hover:text-primary-container hover:bg-surface-container-high transition-all font-medium tracking-wide" href="#about" data-target="about">About</a>
+      <a class="nav-item px-3.5 py-1.5 rounded font-body-sm text-body-sm text-on-surface-variant hover:text-primary-container hover:bg-surface-container-high transition-all font-medium tracking-wide" href="#education" data-target="education">Education</a>
+      <a class="nav-item px-3.5 py-1.5 rounded font-body-sm text-body-sm text-on-surface-variant hover:text-primary-container hover:bg-surface-container-high transition-all font-medium tracking-wide" href="#projects" data-target="projects">Project Repos</a>
+      <a class="nav-item px-3.5 py-1.5 rounded font-body-sm text-body-sm text-on-surface-variant hover:text-primary-container hover:bg-surface-container-high transition-all font-medium tracking-wide" href="#certificates" data-target="certificates">Certificates</a>
+      <a class="nav-item px-3.5 py-1.5 rounded font-body-sm text-body-sm text-on-surface-variant hover:text-primary-container hover:bg-surface-container-high transition-all font-medium tracking-wide" href="#connect" data-target="connect">Connect</a>
+    </nav>
+
+    <!-- Right-side status indicator & mobile menu button -->
+    <div class="flex items-center gap-3">
+      <div class="hidden sm:flex items-center gap-2 px-3 py-1 bg-surface-container-low/80 border border-outline-variant/30 rounded-full shadow-inner">
+        <span class="w-2 h-2 rounded-full bg-primary-container animate-pulse shadow-[0_0_8px_#00f0ff]"></span>
+        <span class="font-code-inline text-[11px] text-primary-container font-semibold tracking-wider">SYSTEM ONLINE</span>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button id="mobile-menu-btn" class="md:hidden flex items-center justify-center w-10 h-10 rounded-lg bg-surface-container-high text-on-surface hover:text-primary-container hover:bg-surface-container-highest transition-colors border border-outline-variant/40" aria-label="Toggle navigation menu">
+        <span class="material-symbols-outlined text-[24px]" id="mobile-menu-icon">menu</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Dropdown Navigation -->
+  <div id="mobile-menu" class="hidden md:hidden px-gutter pb-4 pt-1 bg-surface-container-lowest/95 border-b border-outline-variant/30 backdrop-blur-2xl transition-all">
+    <div class="flex flex-col gap-1 p-2 bg-surface-container-low/90 rounded-xl border border-outline-variant/30">
+      <a class="mobile-nav-item flex items-center justify-between px-4 py-2.5 rounded-lg font-body-md text-on-surface-variant hover:text-primary-container hover:bg-surface-container-high transition-colors" href="#about">
+        <span>About</span>
+        <span class="font-code-inline text-xs text-outline">// 01</span>
+      </a>
+      <a class="mobile-nav-item flex items-center justify-between px-4 py-2.5 rounded-lg font-body-md text-on-surface-variant hover:text-primary-container hover:bg-surface-container-high transition-colors" href="#education">
+        <span>Education</span>
+        <span class="font-code-inline text-xs text-outline">// 02</span>
+      </a>
+      <a class="mobile-nav-item flex items-center justify-between px-4 py-2.5 rounded-lg font-body-md text-on-surface-variant hover:text-primary-container hover:bg-surface-container-high transition-colors" href="#projects">
+        <span>Project Repos</span>
+        <span class="font-code-inline text-xs text-outline">// 03</span>
+      </a>
+      <a class="mobile-nav-item flex items-center justify-between px-4 py-2.5 rounded-lg font-body-md text-on-surface-variant hover:text-primary-container hover:bg-surface-container-high transition-colors" href="#certificates">
+        <span>Certificates</span>
+        <span class="font-code-inline text-xs text-outline">// 04</span>
+      </a>
+      <a class="mobile-nav-item flex items-center justify-between px-4 py-2.5 rounded-lg font-body-md text-on-surface-variant hover:text-primary-container hover:bg-surface-container-high transition-colors" href="#connect">
+        <span>Connect</span>
+        <span class="font-code-inline text-xs text-outline">// 05</span>
+      </a>
+    </div>
+  </div>
+</header><main class="w-full pt-20 bg-surface relative z-10"><style id="typewriter-font-aesthetic">*, *::before, *::after, html, body, h1, h2, h3, h4, h5, h6, p, span, a, button, input, textarea, select, pre, code, [class*="font-"] { font-family: 'Courier Prime', 'Special Elite', 'Courier New', Courier, monospace !important; letter-spacing: -0.01em; }
+.material-symbols-outlined, [class*="material-symbols"], .material-icons {
+  font-family: 'Material Symbols Outlined' !important;
+  font-feature-settings: 'liga' 1 !important;
+  display: inline-block !important;
+  line-height: 1 !important;
+  text-transform: none !important;
+  letter-spacing: normal !important;
+  word-wrap: normal !important;
+  white-space: nowrap !important;
+  direction: ltr !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+@keyframes targetArrivalPulse {
+  0% { box-shadow: 0 0 0 0 rgba(0, 240, 255, 0.7); outline: 2px solid rgba(0, 240, 255, 0.9); }
+  50% { box-shadow: 0 0 40px 10px rgba(0, 240, 255, 0.4); outline: 2px solid rgba(0, 240, 255, 0.6); }
+  100% { box-shadow: 0 0 0 0 rgba(0, 240, 255, 0); outline: 2px solid transparent; }
+}
+.warp-arrival-active {
+  animation: targetArrivalPulse 1.8s ease-out forwards;
+  border-radius: 1rem;
+}
+</style>
+<!-- Persistent Ambient Background Binary Matrix Canvas -->
+<canvas class="fixed inset-0 w-full h-full pointer-events-none z-0 opacity-0 transition-opacity duration-700" height="5950" id="ambient-binary-flow-canvas" style="opacity: 0;" width="1600"></canvas>
+<div class="flex flex-col w-full relative z-10">
+<!-- Subtle Blueprint Canvas Ambient Glow Layer -->
+<div class="relative w-full overflow-hidden bg-transparent">
+<div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[900px] h-[500px] bg-primary-container/10 rounded-full blur-[140px] pointer-events-none"></div>
+<div class="absolute top-[800px] -right-48 w-[600px] h-[600px] bg-tertiary-container/10 rounded-full blur-[160px] pointer-events-none"></div>
+<!-- Full-Screen Fixed Overlay Canvas for Two-Stage Mosaic Splinter & Binary Continuity Dispersion -->
+<canvas class="fixed inset-0 w-full h-full pointer-events-none z-40" height="5950" id="binary-particle-canvas" width="1600"></canvas>
+<!-- High-Speed Data Highway Warp Hyper-Stream Canvas Overlay (Triggered by EXPLORE CTA) -->
+<canvas class="fixed inset-0 w-full h-full pointer-events-none z-50 opacity-0 transition-opacity duration-200" height="5950" id="hyper-stream-warp-canvas" style="opacity: 0;" width="1600"></canvas>
+<!-- Cybernetic Data HUD Buffer Banner Overlay -->
+<div class="fixed top-24 left-1/2 -translate-x-1/2 z-50 pointer-events-none transition-all duration-200 flex flex-col items-center opacity-0" id="warp-hud-overlay">
+<div class="px-5 py-2.5 rounded-lg bg-surface-container-lowest/90 border border-primary-container shadow-[0_0_30px_rgba(0,240,255,0.7)] backdrop-blur-md flex items-center gap-3">
+<span class="w-2.5 h-2.5 rounded-full bg-primary-container animate-ping"></span>
+<span class="font-code-inline text-sm text-primary-container tracking-wider font-bold" id="warp-hud-text">[TARGET ACQUIRED // LOCK ON: SECTION 01 // MEDALLION RESTORED]</span>
+</div>
+</div>
+<!-- 1. HERO SECTION -->
+<section id="overview" class="relative w-full max-w-[1280px] mx-auto px-gutter pt-10 md:pt-16 pb-16 scroll-mt-24">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+<div class="lg:col-span-7 flex flex-col justify-center">
+<div class="flex items-center gap-2 mb-3">
+<span class="font-code-inline text-primary-container text-lg sm:text-xl md:text-2xl font-bold tracking-wider">// Hey, I'm Amrith Deepesh</span>
+</div>
+<div>
+<h1 class="font-headline-hero text-4xl sm:text-5xl lg:text-[60px] text-on-surface tracking-tight leading-[1.1] mb-4">
+          Building the <br class="hidden sm:inline">
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-container via-primary-fixed to-secondary-container">Future with Data.</span>
+</h1><div class="mt-4 mb-6 flex flex-col gap-3"><div class="flex flex-wrap items-center gap-4"><a class="rounded-lg bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-code-inline text-xs border border-outline-variant/40 transition-colors inline-flex items-center gap-2 px-4 py-2" href="https://github.com/amrithdeepesh" rel="noopener noreferrer" target="_blank"><svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"></path></svg><span>GitHub</span></a><a class="rounded-lg bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-code-inline text-xs border border-outline-variant/40 transition-colors inline-flex items-center gap-1.5 px-4 py-2" href="https://www.linkedin.com/in/amrith-deepesh-088051292" rel="noopener noreferrer" target="_blank"><svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.38-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg><span>LinkedIn</span></a><a class="rounded-lg bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-code-inline text-xs border border-outline-variant/40 transition-colors inline-flex items-center gap-1.5 px-4 py-2" href="https://instagram.com/amrrtthh" rel="noopener noreferrer" target="_blank"><svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg>Instagram</a></div></div>
+</div>
+<div class="flex flex-wrap items-center gap-space-md gap-4">
+<a class="inline-flex items-center gap-2.5 px-7 py-3 bg-primary-container hover:bg-white text-on-primary-fixed hover:text-black font-headline-sm text-headline-sm rounded-lg shadow-[0_0_24px_rgba(0,240,255,0.4)] hover:shadow-[0_0_35px_rgba(0,240,255,0.8)] transition-all uppercase tracking-wider group cursor-pointer" href="#core-narrative" id="hero-explore-cta">
+<span>EXPLORE</span>
+</a>
+</div>
+</div>
+<div class="lg:col-span-5 flex flex-col items-center lg:items-end -translate-x-[2px]">
+<div class="relative w-full p-0 bg-transparent transition-all max-w-md" id="portrait-hud-card">
+<div class="relative w-full rounded-2xl overflow-hidden bg-surface-container-lowest shadow-2xl group border border-outline-variant/40 h-[380px] sm:h-[480px] lg:h-[600px]" id="portrait-frame">
+<img alt="amrrtthh" class="absolute inset-0 w-full h-full object-center transition-opacity duration-150 object-cover" crossorigin="anonymous" data-stitch-orig-opacity="1" id="operator-source-img" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMa87SckG5gG2dsoYPx3xSoP40k86FR3x-jaCaiJHv-BoXuCeQBK4GlHJkKb_iprYRWM5VY2gSG5GOq4L3JDJaF4xcW1fXP1VQrSLYGArOx9vJhjURMPRhjq3W7LG6pKDm8mQyStnTDBKAHFX_T5Xtj2tXy2e1DfJOukX6EP19cThD_PgQiXDBq-hMa5kNsrlTgjlTX-CZHEz20I0QQfHBOq3p66KxO7DrFdorq9svDll63R7E0TAg" style="opacity: 1;">
+<div class="absolute bottom-0 inset-x-0 h-24 bg-gradient-to-t from-surface-container-lowest/90 via-surface-container-lowest/40 to-transparent pointer-events-none z-20"></div>
+<div class="absolute bottom-3 left-4 right-4 flex items-center justify-between text-outline font-label-caps text-[11px] z-20 pointer-events-none">
+<div class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+<span class="text-on-surface font-code-inline text-xs font-medium">amrrtthh</span>
+</div>
+<span class="text-primary-container font-code-inline">DE_ID: AMRRTTHH</span>
+</div>
+</div>
+<div class="w-full mt-3 p-3 bg-surface-container-lowest/90 backdrop-blur-md rounded-xl border border-outline-variant/50 shadow-lg flex flex-col gap-2.5">
+<div class="flex items-center justify-between text-[11px] font-label-caps text-outline">
+<span class="flex items-center gap-1.5 text-primary-fixed">
+<span class="material-symbols-outlined text-[15px]">auto_videocam</span>
+<span>PRESET 1 CONTROLLER</span>
+</span>
+<span class="font-code-inline text-on-surface-variant" id="scrubber-pct">PROGRESS: 0%</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-code-inline text-[10px] text-outline">0%</span>
+<input class="w-full accent-primary-container cursor-pointer bg-surface-container-high h-1.5 rounded-lg" id="preset1-scrubber" max="100" min="0" type="range" value="0">
+<span class="font-code-inline text-[10px] text-outline">100%</span>
+</div>
+<div class="grid grid-cols-2 gap-2 pt-1">
+<button class="flex items-center justify-center gap-1.5 px-3 py-2 rounded-lg bg-surface-container-high hover:bg-primary-container hover:text-on-primary-fixed text-on-surface font-code-inline text-xs transition-colors border border-outline-variant/40 group" id="btn-trigger-fracture" title="Scatter portrait into glowing binary fragments">
+<span class="material-symbols-outlined text-[16px] text-primary-container group-hover:text-on-primary-fixed transition-colors">grain</span>
+<span>SCATTER [0/1]</span>
+</button>
+<button class="flex items-center justify-center gap-1.5 px-3 py-2 rounded-lg bg-surface-container-high hover:bg-white hover:text-black text-on-surface font-code-inline text-xs transition-colors border border-outline-variant/40 group" id="btn-reassemble" title="Reassemble matrix back to original photo">
+<span class="material-symbols-outlined text-[16px] text-secondary group-hover:text-black transition-colors">history</span>
+<span>REASSEMBLE</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. ABOUT ME: EDUCATIONAL QUALIFICATIONS -->
+<section class="relative w-full max-w-[1280px] mx-auto px-gutter py-20 transition-all duration-700 scroll-mt-20" id="core-narrative"><div id="about" class="scroll-mt-24 flex flex-col gap-6 mb-12"><div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-2"><div><div class="flex items-center gap-2 mb-2"><span class="font-stat-counter text-stat-counter text-primary-container">01</span><span class="font-code-inline text-code-inline text-outline-variant">//</span><span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">ABOUT ME</span></div><h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">About me</h2></div></div><div class="relative z-10 w-full rounded-2xl bg-surface-container-lowest/90 border border-primary-container/30 p-6 sm:p-8 backdrop-blur-xl shadow-[0_8px_32px_rgba(0,0,0,0.6)] hover:border-primary-container hover:shadow-[0_0_35px_rgba(0,240,255,0.25)] transition-all group overflow-hidden text-justify"><p class="font-body-lg text-base sm:text-lg md:text-xl text-on-surface-variant leading-relaxed">I’m a first-year <span class="text-primary-container font-semibold" style="color: #00f0ff;">Master of Computer Applications (MCA)</span> student from Kannur, Kerala, currently living in Bangalore. I’ve always been curious about how technology can turn large amounts of information into useful insights. That curiosity has grown into a strong passion for data, big data technologies, and the systems that help organizations manage information efficiently.</p><br><p class="font-body-lg text-base sm:text-lg md:text-xl text-on-surface-variant leading-relaxed">My career goal is to become a <span class="text-primary-container font-semibold" style="color: #00f0ff;">data engineer</span>. I’m building my skills by learning about data processing and developing projects focused on automated pipelines. I enjoy exploring new technologies, solving technical problems, and finding ways to make data workflows more reliable and efficient. As a <span class="text-primary-container font-semibold" style="color: #00f0ff;">tech enthusiast</span>, I’m eager to keep learning and take on projects that help me grow.</p><br><p class="font-body-lg text-base sm:text-lg md:text-xl text-on-surface-variant leading-relaxed">When I’m away from my studies and projects, I enjoy bike riding. It gives me a chance to explore, unwind, and return to my work with fresh energy. I’m looking forward to continuing my journey in technology, gaining hands-on experience, and gradually turning my interest in <span class="text-primary-container font-semibold" style="color: #00f0ff;">data engineering</span> into a career.</p></div></div><div id="education" class="scroll-mt-24 flex flex-col gap-10"><div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-2"><div><div class="flex items-center gap-2 mb-2"><span class="font-stat-counter text-stat-counter text-primary-container">02</span><span class="font-code-inline text-code-inline text-outline-variant">//</span><span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">ACADEMIC LEDGER &amp; TELEMETRY</span></div><h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">  Educational Qualifications </h2></div></div><div class="relative flex flex-col gap-8"><div class="hidden md:block absolute left-[31px] top-8 bottom-8 w-[2px] bg-gradient-to-b from-primary-container via-secondary to-transparent z-0 opacity-40"></div><div class="relative z-10 w-full rounded-2xl bg-surface-container-lowest/90 border border-primary-container/30 p-6 sm:p-8 backdrop-blur-xl shadow-[0_8px_32px_rgba(0,0,0,0.6)] hover:border-primary-container hover:shadow-[0_0_35px_rgba(0,240,255,0.25)] transition-all group overflow-hidden"><div class="absolute top-0 left-0 w-3 h-3 border-t-2 border-l-2 border-primary-container pointer-events-none"></div><div class="absolute top-0 right-0 w-3 h-3 border-t-2 border-r-2 border-primary-container pointer-events-none"></div><div class="absolute bottom-0 left-0 w-3 h-3 border-b-2 border-l-2 border-primary-container pointer-events-none"></div><div class="absolute bottom-0 right-0 w-3 h-3 border-b-2 border-r-2 border-primary-container pointer-events-none"></div><div class="flex flex-col md:flex-row items-start justify-between gap-6"><div class="flex items-start gap-5"><div class="relative w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-white border-2 border-primary-container/70 flex items-center justify-center p-2 sm:p-2.5 shrink-0 shadow-[0_0_20px_rgba(0,240,255,0.35)] group-hover:scale-105 group-hover:shadow-[0_0_25px_rgba(0,240,255,0.5)] transition-all overflow-hidden"><img alt="Kristu Jayanti Crest" class="w-full h-full object-contain select-none" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCTUmcMm-stti6YBoeZn5tEfodWRLTHdpdpEEpAaBBJIStPDm1UjZbWnOoDa1gY_p3btOkUS-h27VjrIGZ87QVqh3XJFIt10XSgEb4KM5vatWM7qRuxHEvfBdHyPZVP9jMxcE-PD-cEzqSiXT_orFYOySLUld3sMxOzqJZR2FDwjCS7cViayOWshomOetIX_J-SRYS_keyE5H82fM3DQUyhHqUEvEOhCuypgGT9FNoAUhoSn4JmH_9N"><span class="absolute -bottom-1 -right-1 flex h-3.5 w-3.5"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary-container opacity-75"></span><span class="relative inline-flex rounded-full h-3.5 w-3.5 bg-primary-container border-2 border-[#0b1318]"></span></span></div><div class="flex flex-col gap-1"><div class="flex flex-wrap items-center gap-2 mb-1 gap-4"><span class="px-2 py-0.5 rounded bg-secondary-container/20 border border-secondary/30 text-secondary font-label-caps text-[10px] uppercase font-bold tracking-wider">PostGraduate // ONGOING </span></div><h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors font-bold" style="color: rgb(219, 252, 255);">Kristu Jayanti (Deemed to be University)</h3><p class="font-body-lg text-secondary-fixed-dim font-medium">Master of Computer Applications</p><p class="font-body-sm text-outline mt-0.5">Computer Programming, Specific Applications</p><div class="flex items-center gap-2 text-outline font-code-inline text-body-sm mt-1"><span class="material-symbols-outlined text-[16px] text-secondary">calendar_month</span><span>Jul 2026– 2028</span><span class="text-outline-variant">•</span></div></div></div><div class="flex items-center gap-2 self-start md:self-auto"><div class="p-2.5 rounded-lg bg-surface-container-high border border-outline-variant/40 text-on-surface group-hover:border-primary-container group-hover:text-primary-container transition-colors" title="Academic Ledger"></div></div></div></div><div class="relative z-10 w-full rounded-2xl bg-surface-container-lowest/90 border border-secondary-container/30 p-6 sm:p-8 backdrop-blur-xl shadow-[0_8px_32px_rgba(0,0,0,0.6)] hover:border-secondary hover:shadow-[0_0_35px_rgba(174,198,255,0.25)] transition-all group overflow-hidden"><div class="absolute top-0 left-0 w-3 h-3 border-t-2 border-l-2 border-secondary pointer-events-none"></div><div class="absolute top-0 right-0 w-3 h-3 border-t-2 border-r-2 border-secondary pointer-events-none"></div><div class="absolute bottom-0 left-0 w-3 h-3 border-b-2 border-l-2 border-secondary pointer-events-none"></div><div class="absolute bottom-0 right-0 w-3 h-3 border-b-2 border-r-2 border-secondary pointer-events-none"></div><div class="flex flex-col md:flex-row items-start justify-between gap-6"><div class="flex items-start gap-5"><div class="relative w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-white border-2 border-secondary/70 flex items-center justify-center p-2 sm:p-2.5 shrink-0 shadow-[0_0_20px_rgba(174,198,255,0.35)] group-hover:scale-105 group-hover:shadow-[0_0_25px_rgba(174,198,255,0.5)] transition-all overflow-hidden"><img alt="St. Aloysius Crest" class="w-full h-full object-contain select-none" src="https://lh3.googleusercontent.com/aida-public/AB6AXuARGwMonUeFS3dlnMNdxH_joquhrLWjXkgpEy8XWDMeZuI4fkfCIhEv6JbGbNZJt-snczpMTDcqwCIgTdeyXvihK9zlp1nrVarZaIu0QSMW1Pud6PMhJIYw6meBL8uFqCM_NbvLlS8UK_T1voHjca4CopgefndSxhowFrLSTZzhHOahv3NV8TAPp94sQJP3aX2dGCTT9gcO9-m0L61j6ZYQemE5tLqVMA-AzCk0EeitT4Q8FK7QOssx"><span class="absolute -bottom-1 -right-1 flex h-3.5 w-3.5"><span class="relative inline-flex rounded-full h-3.5 w-3.5 bg-secondary border-2 border-[#0b1318]"></span></span></div><div class="flex flex-col gap-1"><div class="flex flex-wrap items-center gap-2 mb-1 gap-4"><span class="px-2 py-0.5 rounded bg-primary-container/10 border border-primary-container/30 text-primary-container font-label-caps text-[10px] uppercase font-bold tracking-wider"><span style="color: rgb(174, 198, 255); letter-spacing: -0.1px; background-color: rgba(80, 142, 255, 0.2);">UNDERGRADUATE // ALUMINI</span></span></div><h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-secondary transition-colors font-bold" style="color: rgb(174, 198, 255);">St. Aloysius (Deemed to be University)</h3><p class="font-body-lg text-primary-fixed font-medium">Bachelor of Computer Applications</p><div class="flex items-center gap-2 text-outline font-code-inline text-body-sm mt-1"><span class="material-symbols-outlined text-[16px] text-primary-container">calendar_month</span><span>Jul 2023– Jul 2026</span><span class="text-outline-variant">•</span></div></div></div><div class="flex items-center gap-2 self-start md:self-auto"><div class="p-2.5 rounded-lg bg-surface-container-high border border-outline-variant/40 text-on-surface group-hover:border-secondary group-hover:text-secondary transition-colors" title="Academic Ledger"></div></div></div></div></div></div></section>
+<!-- 5. FEATURED PROJECTS -->
+<section class="relative w-full max-w-[1280px] mx-auto px-gutter py-20 scroll-mt-20" id="projects" x-data="projectCarousel()">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-12">
+<div>
+<div class="flex items-center gap-2 mb-2">
+<span class="font-stat-counter text-stat-counter text-primary-container">03</span>
+<span class="font-code-inline text-code-inline text-outline-variant">//</span>
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">PRODUCTION BUILDS</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Featured Project Repos</h2>
+</div>
+<a class="inline-flex items-center gap-2 font-code-inline text-code-inline text-primary-fixed hover:text-primary-container transition-colors" href="https://github.com/amrithdeepesh" rel="noopener noreferrer" target="_blank">
+<span>Explore All Repositories on GitHub</span>
+<span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+</a>
+</div>
+<div @mouseenter="stopAutoplay()" @mouseleave="startAutoplay()" @mousedown="startDrag($event)" @mousemove="onDrag($event)" @mouseup="endDrag($event)" @touchstart="startDrag($event)" @touchmove="onDrag($event)" @touchend="endDrag($event)" class="relative w-full overflow-hidden select-none cursor-grab active:cursor-grabbing">
+<div class="overflow-hidden py-12 px-2 -mx-2">
+<div :style="getTrackStyle()" class="flex items-center gap-6">
+<template :key="loopIdx" x-for="(proj, loopIdx) in extendedProjects">
+<div :style="getCardStyle(loopIdx) + `; width: ${cardWidth}px;`" class="shrink-0 transition-all duration-700">
+<div class="w-full bg-surface-container-low rounded-2xl overflow-hidden border border-primary-container/40 hover:border-primary-container p-6 sm:p-7 flex flex-col justify-between min-h-[440px] sm:min-h-[460px] h-[460px] shadow-[0_8px_32px_rgba(0,0,0,0.6)] hover:shadow-[0_0_30px_rgba(0,240,255,0.25)] transition-all">
+<div class="flex flex-col flex-1">
+<div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+<span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary-container/10 text-primary-container font-label-caps text-label-caps border border-primary-container/20">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container animate-pulse"></span> PUBLIC REPO
+</span>
+<span class="font-code-inline text-xs text-outline" x-text="proj.updated"></span>
+</div>
+<h3 class="font-headline-md text-headline-sm sm:text-headline-md text-on-surface font-bold mb-3 tracking-tight leading-snug line-clamp-2" x-text="proj.title"></h3>
+<div class="flex-1 overflow-y-auto pr-1 scrollbar-thin">
+<p class="font-body-md text-sm sm:text-base text-on-surface-variant leading-relaxed" x-text="proj.desc"></p>
+</div>
+</div>
+<div class="flex flex-wrap sm:flex-nowrap items-center justify-between gap-2 pt-4 mt-3 border-t border-surface-container-high shrink-0">
+<span class="px-2.5 py-1 rounded bg-surface-container text-primary-fixed font-code-inline text-xs font-semibold" x-text="proj.tech"></span>
+<a :href="proj.link" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary-container text-on-primary-fixed font-headline-sm text-body-sm uppercase tracking-wider hover:bg-white hover:text-black transition-all shadow-[0_0_15px_rgba(0,240,255,0.3)] hover:shadow-[0_0_25px_rgba(0,240,255,0.6)] cursor-pointer" rel="noopener noreferrer" target="_blank" @click.stop="">
+<span class="material-symbols-outlined text-[18px]">code</span> View Repository
+</a>
+</div>
+</div>
+</div>
+</template>
+</div>
+</div>
+<div class="flex items-center justify-center gap-5 mt-8">
+  <button @click="prev()" aria-label="Previous Project" class="flex items-center justify-center w-12 h-12 rounded-xl bg-primary-container hover:bg-white text-surface-container-lowest hover:text-black transition-all duration-200 shadow-[0_0_20px_rgba(0,240,255,0.45)] hover:shadow-[0_0_35px_rgba(0,240,255,0.8)] active:scale-95 cursor-pointer">
+    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+  </button>
+  <button @click="next()" aria-label="Next Project" class="flex items-center justify-center w-12 h-12 rounded-xl bg-primary-container hover:bg-white text-surface-container-lowest hover:text-black transition-all duration-200 shadow-[0_0_20px_rgba(0,240,255,0.45)] hover:shadow-[0_0_35px_rgba(0,240,255,0.8)] active:scale-95 cursor-pointer">
+    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+  </button>
+</div>
+</div>
+</section>
+<!-- 6. FEATURED CERTIFICATES & CREDENTIALS GALLERY -->
+<section class="relative w-full max-w-[1440px] mx-auto px-gutter py-20 scroll-mt-20 overflow-hidden" id="certificates" x-data="certificateCarousel()">
+  <!-- Header Title -->
+  <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-12 max-w-[1280px] mx-auto">
+    <div>
+      <div class="flex items-center gap-2 mb-2">
+        <span class="font-stat-counter text-stat-counter text-primary-container">04</span>
+        <span class="font-code-inline text-code-inline text-outline-variant">//</span>
+        <span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">VERIFIED CREDENTIALS</span>
+      </div>
+      <h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Featured Certificates</h2>
+    </div>
+    <div class="flex items-center gap-3">
+      <span class="font-code-inline text-xs text-primary-container px-3.5 py-1.5 rounded-full bg-primary-container/10 border border-primary-container/30 hidden sm:inline-flex items-center gap-2">
+        <span class="w-1.5 h-1.5 rounded-full bg-primary-container animate-pulse"></span>
+        Slide mouse to fast-spin // Click certificate to inspect
+      </span>
+    </div>
+  </div>
+
+  <!-- Interactive 3D Carousel Viewport -->
+  <div
+    @mouseenter="stopAutoplay()"
+    @mouseleave="startAutoplay()"
+    @mousedown="onDragStart($event)"
+    @mousemove="onDragMove($event)"
+    @mouseup="onDragEnd($event)"
+    @mouseleave.self="onDragEnd($event)"
+    @touchstart.passive="onTouchStart($event)"
+    @touchmove.passive="onTouchMove($event)"
+    @touchend="onTouchEnd($event)"
+    class="relative w-full py-8 select-none cursor-grab active:cursor-grabbing overflow-hidden"
+    style="perspective: 1500px; -webkit-perspective: 1500px;"
+  >
+    <!-- Dynamic Track -->
+    <div
+      :style="getTrackStyle()"
+      class="flex items-center gap-6 py-6"
+    >
+      <template :key="loopIdx" x-for="(cert, loopIdx) in extendedCertificates">
+        <div
+          :style="getCardStyle(loopIdx) + `; width: ${cardWidth}px;`"
+          class="shrink-0 transition-all duration-300 select-none group"
+          @click="!isDragging && Math.abs(dragDistance) < 6 && openModal(cert, loopIdx % certificates.length)"
+        >
+          <div class="w-full bg-surface-container-low/95 rounded-2xl overflow-hidden border-2 border-primary-container/35 hover:border-primary-container p-4 sm:p-6 md:p-7 flex flex-col justify-between h-[420px] sm:h-[460px] md:h-[480px] shadow-[0_12px_40px_rgba(0,0,0,0.7)] group-hover:shadow-[0_0_40px_rgba(0,240,255,0.4)] transition-all relative">
+            
+            <!-- High-Res Certificate Image Container -->
+            <div class="relative w-full h-[220px] sm:h-[260px] md:h-[290px] rounded-xl overflow-hidden bg-surface-container-lowest border border-outline-variant/40 flex items-center justify-center p-2 group-hover:border-primary-container/70 transition-colors">
+              <img
+                :src="cert.image"
+                :alt="cert.title"
+                class="w-full h-full object-contain transition-transform duration-300 group-hover:scale-[1.03]"
+                loading="lazy"
+              />
+              
+              <!-- Hover Zoom Inspect Overlay -->
+              <div class="absolute inset-0 bg-surface-container-lowest/50 opacity-0 group-hover:opacity-100 backdrop-blur-[3px] transition-opacity flex items-center justify-center">
+                <span class="px-4 py-2 rounded-lg bg-primary-container text-surface-container-lowest font-headline-sm text-xs font-bold uppercase tracking-wider shadow-[0_0_20px_rgba(0,240,255,0.85)] flex items-center gap-2 transform translate-y-2 group-hover:translate-y-0 transition-transform">
+                  <svg class="w-4 h-4 fill-none stroke-current stroke-2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg>
+                  Click to Expand & Inspect
+                </span>
+              </div>
+            </div>
+
+            <!-- Metadata & Details -->
+            <div class="flex flex-col gap-2 mt-4">
+              <div class="flex items-center justify-between gap-2">
+                <span class="px-2.5 py-0.5 rounded-full bg-primary-container/10 border border-primary-container/30 text-primary-container font-label-caps text-[11px] font-bold tracking-wider" x-text="cert.badge"></span>
+                <span class="font-code-inline text-xs text-outline" x-text="cert.date"></span>
+              </div>
+
+              <h3 class="font-headline-md text-lg sm:text-xl text-on-surface font-bold leading-snug line-clamp-2 group-hover:text-primary-container transition-colors" x-text="cert.title"></h3>
+              
+              <p class="font-body-sm text-xs text-secondary-container font-semibold" x-text="cert.issuer"></p>
+            </div>
+
+            <!-- Bottom Actions / Skills -->
+            <div class="flex items-center justify-between pt-3 border-t border-surface-container-high mt-2">
+              <div class="flex items-center gap-1.5 flex-wrap">
+                <template x-for="skill in (cert.skills || []).slice(0, 2)">
+                  <span class="px-2 py-0.5 rounded bg-surface-container text-primary-fixed font-code-inline text-[10px]" x-text="skill"></span>
+                </template>
+              </div>
+
+              <button
+                class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-primary-container/15 hover:bg-primary-container text-primary-container hover:text-black font-code-inline text-xs transition-colors border border-primary-container/30 cursor-pointer"
+                title="Expand Certificate"
+              >
+                <span>VIEW</span>
+                <svg class="w-3.5 h-3.5 fill-none stroke-current stroke-2" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </template>
+    </div>
+  </div>
+
+  <!-- Centered Signature Blue Navigation Buttons -->
+  <div class="flex items-center justify-center gap-5 mt-8">
+    <button @click="prev()" class="flex items-center justify-center w-12 h-12 rounded-xl bg-primary-container hover:bg-white text-surface-container-lowest hover:text-black transition-all duration-200 shadow-[0_0_20px_rgba(0,240,255,0.45)] hover:shadow-[0_0_35px_rgba(0,240,255,0.85)] hover:scale-105 active:scale-95 cursor-pointer group border border-primary-container/80" title="Previous Certificate" aria-label="Previous Certificate">
+      <svg class="w-6 h-6 stroke-current stroke-[2.5] fill-none group-hover:-translate-x-0.5 transition-transform" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M19 12H5M12 19l-7-7 7-7"/>
+      </svg>
+    </button>
+    <button @click="next()" class="flex items-center justify-center w-12 h-12 rounded-xl bg-primary-container hover:bg-white text-surface-container-lowest hover:text-black transition-all duration-200 shadow-[0_0_20px_rgba(0,240,255,0.45)] hover:shadow-[0_0_35px_rgba(0,240,255,0.85)] hover:scale-105 active:scale-95 cursor-pointer group border border-primary-container/80" title="Next Certificate" aria-label="Next Certificate">
+      <svg class="w-6 h-6 stroke-current stroke-[2.5] fill-none group-hover:translate-x-0.5 transition-transform" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Fullscreen Interactive Lightbox Modal -->
+  <div
+    x-show="modalOpen"
+    x-cloak
+    @keydown.escape.window="closeModal()"
+    @keydown.left.window="modalPrev()"
+    @keydown.right.window="modalNext()"
+    class="fixed inset-0 z-[100] flex items-center justify-center p-3 sm:p-6 bg-black/90 backdrop-blur-2xl transition-all duration-300"
+    style="display: none;"
+  >
+    <!-- Backdrop Click to Close -->
+    <div class="absolute inset-0" @click="closeModal()"></div>
+
+    <!-- Modal Dialog Window -->
+    <div
+      class="relative z-10 w-full max-w-5xl max-h-[92vh] flex flex-col bg-surface-container-lowest border-2 border-primary-container/80 rounded-2xl shadow-[0_0_60px_rgba(0,240,255,0.4)] overflow-hidden"
+      @click.stop
+    >
+      <!-- Modal Top Header -->
+      <div class="px-6 py-3.5 bg-surface-container-low border-b border-outline-variant/30 flex items-center justify-between gap-4">
+        <div class="flex items-center gap-3">
+          <span class="px-2.5 py-0.5 rounded bg-primary-container/10 border border-primary-container/40 text-primary-container font-label-caps text-xs font-bold" x-text="selectedCert?.badge"></span>
+          <span class="font-code-inline text-xs text-outline" x-text="`[0${selectedCertIndex + 1} // 09]`"></span>
+        </div>
+        <div class="flex items-center gap-2">
+          <!-- Open in new tab -->
+          <a :href="selectedCert?.image" target="_blank" class="p-2 rounded-lg bg-surface-container-high hover:bg-primary-container hover:text-black text-on-surface transition-colors" title="Open Full Resolution in New Tab">
+            <svg class="w-5 h-5 fill-none stroke-current stroke-2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+          </a>
+          <!-- Close Modal -->
+          <button @click="closeModal()" class="p-2 rounded-lg bg-surface-container-high hover:bg-red-500 hover:text-white text-on-surface transition-colors cursor-pointer" title="Close (Esc)">
+            <svg class="w-5 h-5 fill-none stroke-current stroke-2" viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Modal Image Viewport with Previous & Next Arrow Controls -->
+      <div class="relative flex-1 bg-surface-container-lowest/90 flex items-center justify-center p-3 sm:p-6 overflow-hidden min-h-[300px]">
+        <!-- Previous Button -->
+        <button
+          @click="modalPrev()"
+          class="absolute left-3 sm:left-5 top-1/2 -translate-y-1/2 z-20 w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-surface-container-lowest/80 hover:bg-primary-container hover:text-black text-primary-container border border-primary-container/40 shadow-xl flex items-center justify-center transition-all cursor-pointer backdrop-blur-md"
+          title="Previous (Left Arrow)"
+        >
+          <svg class="w-6 h-6 fill-none stroke-current stroke-2" viewBox="0 0 24 24"><path d="M15 19l-7-7 7-7"/></svg>
+        </button>
+
+        <!-- Certificate Image -->
+        <img
+          :src="selectedCert?.image"
+          :alt="selectedCert?.title"
+          class="max-h-[64vh] max-w-full w-auto h-auto object-contain rounded-xl shadow-2xl border border-outline-variant/30 transition-transform duration-200"
+        />
+
+        <!-- Next Button -->
+        <button
+          @click="modalNext()"
+          class="absolute right-3 sm:right-5 top-1/2 -translate-y-1/2 z-20 w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-surface-container-lowest/80 hover:bg-primary-container hover:text-black text-primary-container border border-primary-container/40 shadow-xl flex items-center justify-center transition-all cursor-pointer backdrop-blur-md"
+          title="Next (Right Arrow)"
+        >
+          <svg class="w-6 h-6 fill-none stroke-current stroke-2" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+
+      <!-- Modal Bottom Information Bar -->
+      <div class="px-6 py-4 bg-surface-container-low border-t border-outline-variant/30 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+        <div>
+          <h3 class="font-headline-sm text-base sm:text-lg text-on-surface font-bold" x-text="selectedCert?.title"></h3>
+          <p class="font-body-sm text-xs text-on-surface-variant" x-text="`${selectedCert?.issuer} • ${selectedCert?.date}`"></p>
+        </div>
+        <div class="flex flex-wrap gap-1.5">
+          <template x-for="skill in selectedCert?.skills || []">
+            <span class="px-2.5 py-0.5 rounded-full bg-surface-container-high border border-outline-variant/30 text-primary-fixed font-code-inline text-[11px]" x-text="skill"></span>
+          </template>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 7. CONTACT & CONNECTION TERMINAL -->
+<section class="relative w-full max-w-[1280px] mx-auto px-gutter py-20 mb-8 scroll-mt-20" id="connect"><div class="w-full rounded-2xl bg-surface-container-lowest/90 border border-primary-container/40 p-8 sm:p-12 backdrop-blur-xl shadow-[0_8px_32px_rgba(0,0,0,0.6)] hover:border-primary-container hover:shadow-[0_0_35px_rgba(0,240,255,0.3)] transition-all flex flex-col items-center text-center gap-6"><div class="flex items-center gap-2"><span class="font-code-inline text-code-inline text-outline-variant">//</span></div><h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Feel free to contact</h2><div class="flex items-center gap-4 mt-2"><a href="mailto:amrithamroo2005@gmail.com" class="inline-flex items-center justify-center gap-2 sm:gap-3 px-5 sm:px-8 py-3.5 sm:py-4 bg-primary-container hover:bg-white text-on-primary-fixed hover:text-black font-headline-sm text-sm sm:text-headline-sm rounded-lg shadow-[0_0_24px_rgba(0,240,255,0.4)] hover:shadow-[0_0_35px_rgba(0,240,255,0.8)] transition-all uppercase tracking-wider group cursor-pointer max-w-full break-all sm:break-normal"><span class="material-symbols-outlined text-[20px]">mail</span><span>amrithamroo2005@gmail.com</span></a></div></div></section>
+</div>
+</div></main>
+<!-- Alpine JS for Carousels -->
+<script defer="" src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<script>
+  function projectCarousel() {
+    return {
+      windowWidth: typeof window !== "undefined" ? window.innerWidth : 1200,
+      get cardWidth() {
+        return this.windowWidth < 450 ? Math.min(this.windowWidth - 32, 360) : 400;
+      },
+      get cardStep() {
+        return this.cardWidth + 24;
+      },
+      getTrackStyle() {
+        const half = this.cardWidth / 2;
+        const offset = this.activeIndex * this.cardStep;
+        const drag = this.dragDistance || 0;
+        const duration = this.isTransitioning ? (this.fastTransition ? '350ms' : '700ms') : '0ms';
+        return `transform: translateX(calc(50% - ${half}px - ${offset}px + ${drag}px)); transition: transform ${duration} cubic-bezier(0.16, 1, 0.3, 1);`;
+      },
+      activeIndex: 5,
+      isTransitioning: true,
+      fastTransition: false,
+      autoplayTimer: null,
+      isDragging: false,
+      startX: 0,
+      lastX: 0,
+      lastTime: 0,
+      dragDistance: 0,
+      dragVelocity: 0,
+      projects: [
+        {
+          title: "Hall-Ease – Hall Management System",
+          desc: "A hall management application developed during a 3-month internship to help the college efficiently manage hall bookings, activities, and notifications.",
+          updated: "Updated in Nov 2026",
+          tech: "Blade",
+          link: "https://github.com/amrithdeepesh/Hall-Ease"
+        },
+        {
+          title: "College Sports Tournament Management",
+          desc: "A Game Tournament and Live Leaderboard Management System built using Python, MySQL, and Next.js. Demonstrates core Data Structures and Algorithms through participant management, faction-based leaderboards, scheduling, linked lists, stacks, queues, trees, graphs, searching, sorting, and algorithmic problem-solving.",
+          updated: "Updated in Nov 2026",
+          tech: "Python",
+          link: "https://github.com/amrithdeepesh/Game-Tour"
+        },
+        {
+          title: "Water-Quality-Risk-Analyzer",
+          desc: "A Java-based web application that analyzes water quality using different parameters, calculates risk scores, identifies potential issues, and provides recommendations. It also features an India water-quality map using government datasets, user accounts, and analysis history.",
+          updated: "Updated in Nov 2026",
+          tech: "Java",
+          link: "https://github.com/amrithdeepesh/Water-Quality-Risk-Analyzer"
+        },
+        {
+          title: "Pragcy-PWA – Smart Prawn Farm Management",
+          desc: "A smart prawn farm management system designed to improve farm growth, monitor daily activities, and ensure efficient inventory management.",
+          updated: "Updated on Sep 25",
+          tech: "TypeScript",
+          link: "https://github.com/amrithdeepesh/Pragcy-PWA"
+        },
+        {
+          title: "Olivia – AI-powered Women's Health App",
+          desc: "Olivia – AI-powered women's health app for early detection and awareness of reproductive cancers, empowering women and ASHA workers with accessible screening and guidance.",
+          updated: "Updated on Aug 10",
+          tech: "TypeScript",
+          link: "https://github.com/amrithdeepesh/Olivia"
+        }
+      ],
+      get extendedProjects() {
+        return [...this.projects, ...this.projects, ...this.projects];
+      },
+      getRealIndex() {
+        return ((this.activeIndex % 5) + 5) % 5;
+      },
+      init() {
+        this.startAutoplay();
+        window.addEventListener('resize', () => { this.windowWidth = window.innerWidth; });
+      },
+      next() {
+        this.isTransitioning = true;
+        this.activeIndex++;
+        this.checkBounds();
+      },
+      prev() {
+        this.isTransitioning = true;
+        this.activeIndex--;
+        this.checkBounds();
+      },
+      goTo(i) {
+        this.isTransitioning = true;
+        const currentReal = this.getRealIndex();
+        let diff = i - currentReal;
+        this.activeIndex += diff;
+        this.checkBounds();
+      },
+      checkBounds() {
+        if (this.activeIndex < 5) {
+          setTimeout(() => {
+            this.isTransitioning = false;
+            this.activeIndex += 5;
+            setTimeout(() => { this.isTransitioning = true; }, 50);
+          }, 700);
+        } else if (this.activeIndex >= 10) {
+          setTimeout(() => {
+            this.isTransitioning = false;
+            this.activeIndex -= 5;
+            setTimeout(() => { this.isTransitioning = true; }, 50);
+          }, 700);
+        }
+      },
+      startAutoplay() {
+        this.stopAutoplay();
+        this.autoplayTimer = setInterval(() => { this.next(); }, 4500);
+      },
+      stopAutoplay() {
+        if (this.autoplayTimer) clearInterval(this.autoplayTimer);
+      },
+      startDrag(e) {
+        this.stopAutoplay();
+        this.isDragging = true;
+        this.startX = e.type.includes('touch') ? e.touches[0].clientX : e.clientX;
+        this.lastX = this.startX;
+        this.lastTime = Date.now();
+        this.dragDistance = 0;
+        this.dragVelocity = 0;
+      },
+      onDrag(e) {
+        if (!this.isDragging) return;
+        const currentX = e.type.includes('touch') ? e.touches[0].clientX : e.clientX;
+        const now = Date.now();
+        const dt = now - this.lastTime;
+        const dx = currentX - this.lastX;
+        if (dt > 0) {
+          this.dragVelocity = dx / dt;
+        }
+        this.dragDistance = currentX - this.startX;
+        this.lastX = currentX;
+        this.lastTime = now;
+      },
+      endDrag(e) {
+        if (!this.isDragging) return;
+        this.isDragging = false;
+        const threshold = 50;
+        if (this.dragDistance < -threshold || this.dragVelocity < -0.3) {
+          this.fastTransition = true;
+          this.next();
+          setTimeout(() => { this.fastTransition = false; }, 350);
+        } else if (this.dragDistance > threshold || this.dragVelocity > 0.3) {
+          this.fastTransition = true;
+          this.prev();
+          setTimeout(() => { this.fastTransition = false; }, 350);
+        }
+        this.startAutoplay();
+      },
+      getCardStyle(loopIdx) {
+        let diff = Math.abs(this.activeIndex - loopIdx);
+        if (diff === 0) {
+          return 'filter: blur(0px); opacity: 1; transform: scale(1.05); z-index: 30; box-shadow: 0 0 30px rgba(0,240,255,0.4);';
+        } else {
+          return 'filter: blur(5px); opacity: 0.5; transform: scale(0.95); z-index: 10;';
+        }
+      }
+    }
+  }
+
+function certificateCarousel() {
+    return {
+      windowWidth: typeof window !== "undefined" ? window.innerWidth : 1200,
+      activeIndex: 27,
+      isTransitioning: true,
+      fastTransition: false,
+      autoplayTimer: null,
+      isDragging: false,
+      startX: 0,
+      lastX: 0,
+      lastTime: 0,
+      dragDistance: 0,
+      dragVelocity: 0,
+      modalOpen: false,
+      selectedCert: null,
+      selectedCertIndex: 0,
+      certificates: [
+        {
+          title: "Certificate Program in AI and Machine Learning",
+          badge: "GOLD CATEGORY",
+          issuer: "Futureskills Prime / NASSCOM & MeitY (Govt. of India)",
+          date: "April 2026",
+          skills: ["Artificial Intelligence", "Machine Learning", "Data Analytics"],
+          image: "certficates/nasscom_page-0001.jpg",
+          desc: "Gold Category assessment credential aligned to National Competency Standards by NASSCOM IT-ITeS SSC and Ministry of Electronics & IT."
+        },
+        {
+          title: "AI Fundamentals: Foundations for Understanding AI",
+          badge: "IBM CREDENTIAL",
+          issuer: "IBM SkillsBuild",
+          date: "October 2026",
+          skills: ["AI Architecture", "Neural Models", "Ethics & Governance"],
+          image: "certficates/AIFundamentalsFoundationsforUnderstandingAI_Badge20261016-20-fb5fdp_page-0001.jpg",
+          desc: "Official IBM SkillsBuild verification credential issued via Credly, covering core AI algorithms, machine learning workflows, and enterprise ethics."
+        },
+        {
+          title: "AWS Security Fundamentals",
+          badge: "CLOUD SECURITY",
+          issuer: "Amazon Web Services (AWS)",
+          date: "October 2026",
+          skills: ["Cloud Security", "IAM", "Encryption", "Infrastructure"],
+          image: "certficates/aws security fundamentals_page-0001.jpg",
+          desc: "AWS Training & Certification covering identity access management, cryptography, VPC security boundaries, and automated threat monitoring."
+        },
+        {
+          title: "Python Course Completion",
+          badge: "DATA SCIENCE",
+          issuer: "Kaggle",
+          date: "October 2026",
+          skills: ["Python", "Data Analysis", "Numerical Computing"],
+          image: "certficates/Amrith Kaggle- Python.png",
+          desc: "Comprehensive Python programming certification from Kaggle covering data manipulation, lambda functions, indexing, and algorithms."
+        },
+        {
+          title: "Java 9 Core Principles",
+          badge: "ENTERPRISE JAVA",
+          issuer: "Infosys Springboard",
+          date: "August 2026",
+          skills: ["Java 9", "OOP Architecture", "Modular Systems"],
+          image: "certficates/infosys_page-0001.jpg",
+          desc: "Certified by Infosys Springboard for mastering Java 9 language enhancements, Project Jigsaw modular architecture, and concurrent design."
+        },
+        {
+          title: "Career Essentials in Generative AI",
+          badge: "AI SPECIALIZATION",
+          issuer: "Microsoft & LinkedIn Learning",
+          date: "May 2025",
+          skills: ["Generative AI", "Microsoft Copilot", "Responsible AI"],
+          image: "certficates/career essential.jpg",
+          desc: "Executive learning path completed through Microsoft and LinkedIn covering generative foundation models, Copilot workflows, and prompt design."
+        },
+        {
+          title: "Python for Mathematics",
+          badge: "COMPUTATIONAL MATH",
+          issuer: "St. Aloysius (Deemed to be University)",
+          date: "February 2025",
+          skills: ["Applied Mathematics", "Numerical Methods", "Python Algorithms"],
+          image: "certficates/python for maths.jpg",
+          desc: "30-hour intensive certificate course conducted by the School of Physical Sciences on applied calculus, linear algebra, and numerical simulation in Python."
+        },
+        {
+          title: "3D Modelling for Animation",
+          badge: "VISUAL COMPUTING",
+          issuer: "St. Aloysius College - Dept. of Computer Science",
+          date: "December 2024",
+          skills: ["3D Modelling", "Spatial Animation", "Computer Graphics"],
+          image: "certficates/certificate course_page-0001.jpg",
+          desc: "30-hour certification in 3D spatial modeling, polygon workflows, texture mapping, rendering pipelines, and dynamic animation."
+        },
+        {
+          title: "Crash Course on C#",
+          badge: "SYSTEMS PROGRAMMING",
+          issuer: "Lernx",
+          date: "March 2024",
+          skills: ["C#", ".NET Core", "Object-Oriented Programming"],
+          image: "certficates/c_sharp.png",
+          desc: "Accelerated course in C# programming fundamentals, memory safety, type architecture, and .NET application development."
+        }
+      ],
+      get extendedCertificates() {
+        return [...this.certificates, ...this.certificates, ...this.certificates, ...this.certificates, ...this.certificates, ...this.certificates, ...this.certificates];
+      },
+      getRealIndex() {
+        return ((this.activeIndex % this.certificates.length) + this.certificates.length) % this.certificates.length;
+      },
+      init() {
+        this.selectedCert = this.certificates[0];
+        this.startAutoplay();
+      },
+      next() {
+        this.isTransitioning = true;
+        this.activeIndex++;
+        this.checkBounds();
+      },
+      prev() {
+        this.isTransitioning = true;
+        this.activeIndex--;
+        this.checkBounds();
+      },
+      goTo(i) {
+        this.isTransitioning = true;
+        const currentReal = this.getRealIndex();
+        let diff = i - currentReal;
+        this.activeIndex += diff;
+        this.checkBounds();
+      },
+      checkBounds() {
+        const len = this.certificates.length;
+        if (this.activeIndex < len) {
+          setTimeout(() => {
+            this.isTransitioning = false;
+            this.activeIndex += len * 3;
+            setTimeout(() => { this.isTransitioning = true; }, 50);
+          }, 650);
+        } else if (this.activeIndex >= len * 6) {
+          setTimeout(() => {
+            this.isTransitioning = false;
+            this.activeIndex -= len * 3;
+            setTimeout(() => { this.isTransitioning = true; }, 50);
+          }, 650);
+        }
+      },
+      startAutoplay() {
+        this.stopAutoplay();
+        this.autoplayTimer = setInterval(() => {
+          if (!this.isDragging && !this.modalOpen) {
+            this.next();
+          }
+        }, 4000);
+      },
+      stopAutoplay() {
+        if (this.autoplayTimer) clearInterval(this.autoplayTimer);
+      },
+      onDragStart(e) {
+        this.stopAutoplay();
+        this.isDragging = true;
+        this.startX = e.clientX;
+        this.lastX = e.clientX;
+        this.lastTime = performance.now();
+        this.dragDistance = 0;
+        this.dragVelocity = 0;
+      },
+      onDragMove(e) {
+        if (!this.isDragging) return;
+        const currentX = e.clientX;
+        const now = performance.now();
+        const dt = now - this.lastTime;
+        if (dt > 8) {
+          this.dragVelocity = (currentX - this.lastX) / dt;
+          this.lastX = currentX;
+          this.lastTime = now;
+        }
+        this.dragDistance = currentX - this.startX;
+      },
+      onDragEnd() {
+        if (!this.isDragging) return;
+        this.isDragging = false;
+        const threshold = 50;
+        const vel = this.dragVelocity;
+
+        if (this.dragDistance < -threshold || vel < -0.28) {
+          const skip = Math.abs(vel) > 1.2 ? 2 : 1;
+          this.fastTransition = Math.abs(vel) > 0.8;
+          this.activeIndex += skip;
+          this.checkBounds();
+        } else if (this.dragDistance > threshold || vel > 0.28) {
+          const skip = Math.abs(vel) > 1.2 ? 2 : 1;
+          this.fastTransition = Math.abs(vel) > 0.8;
+          this.activeIndex -= skip;
+          this.checkBounds();
+        }
+        this.dragDistance = 0;
+        this.dragVelocity = 0;
+        setTimeout(() => { this.fastTransition = false; }, 350);
+      },
+      onTouchStart(e) {
+        if (e.touches && e.touches[0]) {
+          this.onDragStart({ clientX: e.touches[0].clientX });
+        }
+      },
+      onTouchMove(e) {
+        if (e.touches && e.touches[0]) {
+          this.onDragMove({ clientX: e.touches[0].clientX });
+        }
+      },
+      onTouchEnd() {
+        this.onDragEnd();
+      },
+      get cardWidth() {
+        if (typeof window === "undefined") return 500;
+        if (this.windowWidth < 450) return Math.min(this.windowWidth - 32, 360);
+        if (this.windowWidth < 768) return 440;
+        return 500;
+      },
+      get cardStep() {
+        return this.cardWidth + 24;
+      },
+      getTrackStyle() {
+        const half = this.cardWidth / 2;
+        const offset = this.activeIndex * this.cardStep;
+        const drag = this.dragDistance;
+        const duration = this.isDragging ? '0ms' : (this.fastTransition ? '300ms' : '650ms');
+        const easing = this.isDragging ? 'linear' : 'cubic-bezier(0.16, 1, 0.3, 1)';
+        return `transform: translateX(calc(50% - ${half}px - ${offset}px + ${drag}px)); transition: transform ${duration} ${easing}; transform-style: preserve-3d; will-change: transform;`;
+      },
+      getCardStyle(loopIdx) {
+        const currentPos = this.activeIndex - (this.dragDistance / this.cardStep);
+        const diff = loopIdx - currentPos;
+        const dynamicSpin = Math.max(-18, Math.min(18, this.dragVelocity * 14));
+        const rotateY = Math.max(-44, Math.min(44, (diff * -22) + dynamicSpin));
+        const absDiff = Math.abs(diff);
+        const duration = this.isDragging ? '60ms' : (this.fastTransition ? '300ms' : '650ms');
+        const easing = this.isDragging ? 'ease-out' : 'cubic-bezier(0.16, 1, 0.3, 1)';
+
+        if (absDiff < 0.55) {
+          const scale = 1.05 - (absDiff * 0.1);
+          return `transform: perspective(1400px) rotateY(${rotateY.toFixed(1)}deg) scale(${scale.toFixed(2)}) translateZ(40px); z-index: 30; opacity: 1; filter: blur(0px); box-shadow: 0 0 35px rgba(0,240,255,0.45); transition: transform ${duration} ${easing}, filter 300ms, opacity 300ms;`;
+        } else if (absDiff < 1.55) {
+          return `transform: perspective(1400px) rotateY(${rotateY.toFixed(1)}deg) scale(0.95) translateZ(0px); z-index: 20; opacity: 0.88; filter: blur(0.5px); transition: transform ${duration} ${easing}, filter 300ms, opacity 300ms;`;
+        } else {
+          return `transform: perspective(1400px) rotateY(${rotateY.toFixed(1)}deg) scale(0.88) translateZ(-40px); z-index: 10; opacity: 0.52; filter: blur(2.5px); transition: transform ${duration} ${easing}, filter 300ms, opacity 300ms;`;
+        }
+      },
+      openModal(cert, realIndex) {
+        this.stopAutoplay();
+        this.selectedCert = cert;
+        this.selectedCertIndex = realIndex;
+        this.modalOpen = true;
+      },
+      closeModal() {
+        this.modalOpen = false;
+        this.startAutoplay();
+      },
+      modalPrev() {
+        const len = this.certificates.length;
+        this.selectedCertIndex = (this.selectedCertIndex - 1 + len) % len;
+        this.selectedCert = this.certificates[this.selectedCertIndex];
+      },
+      modalNext() {
+        const len = this.certificates.length;
+        this.selectedCertIndex = (this.selectedCertIndex + 1) % len;
+        this.selectedCert = this.certificates[this.selectedCertIndex];
+      }
+    }
+  }</script>
+<!-- SCRIPT: Seamless Preset 1 Shatter & Persistent Full-Site Ambient Binary Flow Matrix -->
+<script>
+(function() {
+  const canvas = document.getElementById('binary-particle-canvas');
+  const bgCanvas = document.getElementById('ambient-binary-flow-canvas');
+  const img = document.getElementById('operator-source-img');
+  const readout = document.getElementById('dispersion-readout');
+  const scrubber = document.getElementById('preset1-scrubber');
+  const scrubberPct = document.getElementById('scrubber-pct');
+  const btnScatter = document.getElementById('btn-trigger-fracture');
+  const btnReassemble = document.getElementById('btn-reassemble');
+  const frame = document.getElementById('portrait-frame');
+  if (!canvas || !img || !frame || !bgCanvas) return;
+
+  const ctx = canvas.getContext('2d');
+  const bgCtx = bgCanvas.getContext('2d');
+  let currentProg = 0;
+  let targetProg = 0;
+  let manualOverride = false;
+  let animFrameId = null;
+
+  let tiles = [];
+  let binaryNodes = [];
+  let offCanvas = null;
+  let offCtx = null;
+  let isReady = false;
+
+  let ambientStreams = [];
+  let ambientClusters = [];
+
+  function resizeCanvases() {
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    const w = window.innerWidth;
+    const h = window.innerHeight;
+    
+    canvas.width = Math.floor(w * dpr);
+    canvas.height = Math.floor(h * dpr);
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
+    ctx.scale(dpr, dpr);
+
+    bgCanvas.width = Math.floor(w * dpr);
+    bgCanvas.height = Math.floor(h * dpr);
+    bgCtx.setTransform(1, 0, 0, 1, 0, 0);
+    bgCtx.scale(dpr, dpr);
+  }
+
+  function initAmbientMatrix() {
+    const w = window.innerWidth;
+    const h = window.innerHeight;
+    
+    ambientStreams = [];
+    const streamCount = Math.floor(w / 38);
+    for (let i = 0; i < streamCount; i++) {
+      const colX = i * 38 + (Math.random() - 0.5) * 16;
+      const length = 5 + Math.floor(Math.random() * 9);
+      const speed = 0.35 + Math.random() * 0.85;
+      const chars = [];
+      for (let j = 0; j < length; j++) {
+        chars.push({
+          char: Math.random() > 0.5 ? '1' : '0',
+          alpha: 0.12 + Math.random() * 0.16,
+          isLead: j === length - 1,
+          glow: Math.random() > 0.65
+        });
+      }
+      ambientStreams.push({
+        x: colX,
+        y: Math.random() * h * 1.5,
+        speed: speed,
+        length: length,
+        chars: chars,
+        fontSize: 11 + Math.floor(Math.random() * 4),
+        changeTimer: 0
+      });
+    }
+
+    ambientClusters = [];
+    const clusterCount = 45;
+    for (let k = 0; k < clusterCount; k++) {
+      ambientClusters.push({
+        x: Math.random() * w,
+        y: Math.random() * h,
+        vx: (Math.random() - 0.5) * 0.35,
+        vy: (Math.random() - 0.5) * 0.45,
+        char: Math.random() > 0.48 ? '1' : '0',
+        size: 11 + Math.random() * 5,
+        alpha: 0.12 + Math.random() * 0.22,
+        isElectricCyan: Math.random() > 0.55,
+        pulseSpeed: 1.2 + Math.random() * 2.2,
+        pulseOffset: Math.random() * Math.PI * 2
+      });
+    }
+  }
+
+  function sampleImageAndBuildArchitecture() {
+    resizeCanvases();
+    initAmbientMatrix();
+
+    const frameRect = frame.getBoundingClientRect();
+    const fW = frameRect.width;
+    const fH = frameRect.height;
+    if (fW === 0 || fH === 0) return;
+
+    const sampleW = 280;
+    const sampleH = Math.round(sampleW * (4 / 3));
+
+    offCanvas = document.createElement('canvas');
+    offCanvas.width = sampleW;
+    offCanvas.height = sampleH;
+    offCtx = offCanvas.getContext('2d', { willReadFrequently: true });
+
+    let hasImageData = false;
+    let pixelData = null;
+
+    try {
+      offCtx.drawImage(img, 0, 0, sampleW, sampleH);
+      pixelData = offCtx.getImageData(0, 0, sampleW, sampleH).data;
+      hasImageData = true;
+    } catch(e) {
+      hasImageData = false;
+    }
+
+    tiles = [];
+    const cols = 7;
+    const rows = 9;
+    const tileW = fW / cols;
+    const tileH = fH / rows;
+
+    for (let r = 0; r < rows; r++) {
+      for (let c = 0; c < cols; c++) {
+        const origX = c * tileW;
+        const origY = r * tileH;
+        
+        const cX = (origX + tileW / 2) - fW / 2;
+        const cY = (origY + tileH / 2) - fH / 2;
+        const dist = Math.hypot(cX, cY) || 1;
+        const dirX = cX / dist;
+        const dirY = cY / dist;
+
+        const sX = (c / cols) * sampleW;
+        const sY = (r / rows) * sampleH;
+        const sW = sampleW / cols;
+        const sH = sampleH / rows;
+
+        const driftDist = 20 + Math.random() * 45;
+        const rot = (Math.random() - 0.5) * 0.28;
+
+        tiles.push({
+          c, r,
+          origX, origY,
+          tileW, tileH,
+          sX, sY, sW, sH,
+          dirX, dirY,
+          driftDist,
+          rot,
+          fractureDelay: Math.random() * 0.08
+        });
+      }
+    }
+
+    binaryNodes = [];
+    const binCols = 35;
+    const binRows = 45;
+    const stepX = fW / binCols;
+    const stepY = fH / binRows;
+    const winW = window.innerWidth;
+    const winH = window.innerHeight;
+
+    for (let br = 0; br < binRows; br++) {
+      for (let bc = 0; bc < binCols; bc++) {
+        const origX = bc * stepX + stepX * 0.5;
+        const origY = br * stepY + stepY * 0.5;
+
+        let rVal = 180, gVal = 190, bVal = 200, lum = 0.65;
+        if (hasImageData && pixelData) {
+          const samplePx = Math.floor((bc / binCols) * sampleW);
+          const samplePy = Math.floor((br / binRows) * sampleH);
+          const idx = (samplePy * sampleW + samplePx) * 4;
+          if (idx < pixelData.length - 4) {
+            rVal = pixelData[idx];
+            gVal = pixelData[idx + 1];
+            bVal = pixelData[idx + 2];
+            lum = (rVal * 0.299 + gVal * 0.587 + bVal * 0.114) / 255;
+          }
+        } else {
+          const ny = br / binRows;
+          const nx = bc / binCols;
+          lum = 0.3 + 0.6 * Math.sin(nx * Math.PI) * Math.sin(ny * Math.PI * 0.9);
+          rVal = Math.round(lum * 255);
+          gVal = Math.round(lum * 255);
+          bVal = Math.round(lum * 255);
+        }
+
+        const char = Math.random() > 0.49 ? '1' : '0';
+
+        const ncx = (origX - fW / 2) / (fW / 2);
+        const ncy = (origY - fH / 2) / (fH / 2);
+        const angle = Math.atan2(ncy, ncx) + (Math.random() - 0.5) * 0.9;
+        const scatterRadius = winW * (0.35 + Math.random() * 0.65);
+        const destWorldX = Math.cos(angle) * scatterRadius + (Math.random() - 0.5) * 180;
+        const destWorldY = Math.sin(angle) * (winH * 0.6) + (Math.random() - 0.5) * 220;
+
+        const parentTileC = Math.min(cols - 1, Math.floor(bc / (binCols / cols)));
+        const parentTileR = Math.min(rows - 1, Math.floor(br / (binRows / rows)));
+        const pTileIndex = parentTileR * cols + parentTileC;
+
+        binaryNodes.push({
+          origX, origY,
+          pTileIndex,
+          char, lum,
+          r: rVal, g: gVal, b: bVal,
+          destWorldX, destWorldY,
+          fontSize: 9 + Math.round(lum * 5),
+          jitterSpeed: 1 + Math.random() * 2,
+          jitterOffset: Math.random() * Math.PI * 2
+        });
+      }
+    }
+
+    isReady = true;
+  }
+
+  function handleScroll() {
+    if (manualOverride) return;
+    const frameRect = frame.getBoundingClientRect();
+    const fH = frameRect.height || 600;
+    
+    // Trigger starts only when the image has moved almost upwards (scrolled near the top of the viewport)
+    const triggerStart = window.innerWidth < 768 ? -100 : -180;
+    const triggerEnd = window.innerWidth < 768 ? -fH * 0.75 : -fH * 0.85;
+
+    if (frameRect.top >= triggerStart) {
+      targetProg = 0;
+    } else if (frameRect.top <= triggerEnd) {
+      targetProg = 1;
+    } else {
+      targetProg = Math.max(0, Math.min(1, (triggerStart - frameRect.top) / (triggerStart - triggerEnd)));
+    }
+  }
+
+  if (scrubber) {
+    scrubber.addEventListener('input', function(e) {
+      manualOverride = true;
+      targetProg = parseFloat(e.target.value) / 100;
+    });
+  }
+
+  if (btnScatter) {
+    btnScatter.addEventListener('click', function() {
+      manualOverride = true;
+      targetProg = 1.0;
+    });
+  }
+
+  if (btnReassemble) {
+    btnReassemble.addEventListener('click', function() {
+      targetProg = 0.0;
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      setTimeout(() => { manualOverride = false; }, 600);
+    });
+  }
+
+  window.addEventListener('wheel', function() {
+    manualOverride = false;
+  }, { passive: true });
+
+  window.addEventListener('touchmove', function() {
+    manualOverride = false;
+  }, { passive: true });
+
+  function render(time) {
+    currentProg += (targetProg - currentProg) * 0.12;
+    const p = currentProg;
+
+    const pct = Math.round(p * 100);
+    if (scrubberPct) scrubberPct.innerText = `PROGRESS: ${pct}%`;
+    if (scrubber && !document.activeElement?.isSameNode(scrubber)) {
+      scrubber.value = pct;
+    }
+
+    if (readout) {
+      if (p < 0.04) {
+        readout.innerText = 'MATRIX: 100% INTACT';
+        readout.className = 'font-stat-counter text-[11px] text-outline';
+      } else if (p < 0.35) {
+        readout.innerText = `STAGE 1: FRACTURING // ${Math.round((1 - p * 1.5) * 100)}% COHESION`;
+        readout.className = 'font-stat-counter text-[11px] text-primary-fixed';
+      } else if (p < 0.70) {
+        readout.innerText = 'STAGE 2: DIGITIZING // 0xBINARY_MESH';
+        readout.className = 'font-stat-counter text-[11px] text-primary-container';
+      } else {
+        readout.innerText = 'STAGE 3: AMBIENT DATA STREAM ONLINE';
+        readout.className = 'font-stat-counter text-[11px] text-primary-container animate-pulse';
+      }
+    }
+
+    const winW = window.innerWidth;
+    const winH = window.innerHeight;
+    ctx.clearRect(0, 0, winW, winH);
+
+    const frameRect = frame.getBoundingClientRect();
+    const frameLeft = frameRect.left;
+    const frameTop = frameRect.top;
+
+    if (p < 0.04) {
+      img.style.opacity = '1';
+    } else {
+      img.style.opacity = Math.max(0, (0.12 - p) / 0.08).toFixed(2);
+    }
+
+    bgCtx.clearRect(0, 0, winW, winH);
+    const ambientMasterAlpha = Math.max(0, Math.min(1, (p - 0.10) / 0.45));
+    bgCanvas.style.opacity = ambientMasterAlpha > 0.01 ? '1' : '0';
+
+    if (ambientMasterAlpha > 0.01) {
+      bgCtx.save();
+      const tSec = time * 0.001;
+
+      for (let sIdx = 0; sIdx < ambientStreams.length; sIdx++) {
+        const str = ambientStreams[sIdx];
+        str.y += str.speed;
+        if (str.y - str.length * 18 > winH) {
+          str.y = -20;
+          str.x = sIdx * 38 + (Math.random() - 0.5) * 16;
+        }
+
+        str.changeTimer++;
+        if (str.changeTimer > 35) {
+          str.changeTimer = 0;
+          const rPos = Math.floor(Math.random() * str.chars.length);
+          str.chars[rPos].char = Math.random() > 0.5 ? '1' : '0';
+        }
+
+        for (let j = 0; j < str.chars.length; j++) {
+          const charObj = str.chars[j];
+          const charY = str.y - (str.chars.length - 1 - j) * (str.fontSize + 4);
+          if (charY < -20 || charY > winH + 20) continue;
+
+          const targetX = frameLeft + frameRect.width / 2;
+          const targetY = frameTop + frameRect.height / 2;
+          const pull = (1 - p);
+          const currentX = str.x * (1 - pull * 0.4) + targetX * (pull * 0.4);
+
+          const fadePos = j / str.chars.length;
+          const baseAlpha = charObj.alpha * ambientMasterAlpha * (0.4 + 0.6 * fadePos);
+
+          bgCtx.font = `500 ${str.fontSize}px 'Courier Prime', monospace`;
+
+          if (charObj.isLead || charObj.glow) {
+            bgCtx.fillStyle = `rgba(0, 240, 255, ${baseAlpha * 1.35})`;
+            bgCtx.shadowColor = '#00f0ff';
+            bgCtx.shadowBlur = 8;
+          } else {
+            bgCtx.fillStyle = `rgba(132, 148, 149, ${baseAlpha * 0.8})`;
+            bgCtx.shadowBlur = 0;
+          }
+
+          bgCtx.fillText(charObj.char, currentX, charY);
+        }
+      }
+
+      for (let cIdx = 0; cIdx < ambientClusters.length; cIdx++) {
+        const cl = ambientClusters[cIdx];
+        cl.x += cl.vx;
+        cl.y += cl.vy;
+
+        if (cl.x < -30) cl.x = winW + 20;
+        if (cl.x > winW + 30) cl.x = -20;
+        if (cl.y < -30) cl.y = winH + 20;
+        if (cl.y > winH + 30) cl.y = -20;
+
+        const pulse = Math.sin(tSec * cl.pulseSpeed + cl.pulseOffset);
+        const dynamicAlpha = Math.max(0.08, cl.alpha + pulse * 0.08) * ambientMasterAlpha;
+
+        const pull = (1 - p);
+        const targetX = frameLeft + frameRect.width / 2;
+        const targetY = frameTop + frameRect.height / 2;
+        const plotX = cl.x * (1 - pull * 0.5) + targetX * (pull * 0.5);
+        const plotY = cl.y * (1 - pull * 0.5) + targetY * (pull * 0.5);
+
+        bgCtx.font = `600 ${cl.size}px 'Courier Prime', monospace`;
+
+        if (cl.isElectricCyan) {
+          bgCtx.fillStyle = `rgba(0, 240, 255, ${dynamicAlpha})`;
+          bgCtx.shadowColor = '#00f0ff';
+          bgCtx.shadowBlur = pulse > 0.2 ? 10 : 4;
+        } else {
+          bgCtx.fillStyle = `rgba(185, 202, 203, ${dynamicAlpha * 0.75})`;
+          bgCtx.shadowBlur = 0;
+        }
+
+        bgCtx.fillText(cl.char, plotX, plotY);
+      }
+      bgCtx.restore();
+    }
+
+    if (isReady && p > 0.01) {
+      const tileStageAlpha = Math.max(0, Math.min(1, p < 0.3 ? (p - 0.02) / 0.08 : (0.50 - p) / 0.20));
+
+      if (tileStageAlpha > 0.01 && offCanvas) {
+        ctx.save();
+        const stage1Prog = Math.min(1, p / 0.38);
+
+        for (let i = 0; i < tiles.length; i++) {
+          const t = tiles[i];
+          const localProg = Math.max(0, Math.min(1, (stage1Prog - t.fractureDelay) / (1 - t.fractureDelay)));
+          const easeFracture = Math.pow(localProg, 1.4);
+
+          const shiftX = t.dirX * t.driftDist * easeFracture;
+          const shiftY = t.dirY * t.driftDist * easeFracture;
+          const curRot = t.rot * easeFracture;
+
+          const centerX = frameLeft + t.origX + t.tileW / 2 + shiftX;
+          const centerY = frameTop + t.origY + t.tileH / 2 + shiftY;
+
+          ctx.save();
+          ctx.translate(centerX, centerY);
+          ctx.rotate(curRot);
+          ctx.globalAlpha = tileStageAlpha;
+
+          ctx.drawImage(
+            offCanvas,
+            t.sX, t.sY, t.sW, t.sH,
+            -t.tileW / 2, -t.tileH / 2, t.tileW, t.tileH
+          );
+
+          if (localProg > 0.08) {
+            ctx.strokeStyle = '#00f0ff';
+            ctx.lineWidth = Math.max(0.6, 1.4 * (1 - localProg));
+            ctx.globalAlpha = tileStageAlpha * 0.75 * Math.sin(localProg * Math.PI);
+            ctx.strokeRect(-t.tileW / 2, -t.tileH / 2, t.tileW, t.tileH);
+          }
+
+          ctx.restore();
+        }
+        ctx.restore();
+      }
+
+      const binaryStageAlpha = Math.max(0, Math.min(1, (p - 0.16) / 0.14));
+
+      if (binaryStageAlpha > 0.01) {
+        ctx.save();
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        const tSec = time * 0.003;
+
+        const deepScatterProg = Math.max(0, Math.min(1, (p - 0.38) / 0.62));
+        const easeDeep = Math.pow(deepScatterProg, 1.45);
+
+        for (let i = 0; i < binaryNodes.length; i++) {
+          const b = binaryNodes[i];
+          const parentTile = tiles[b.pTileIndex] || tiles[0];
+
+          const tileShiftProg = Math.min(1, p / 0.38);
+          const tEase = Math.pow(tileShiftProg, 1.4);
+          const baseTileShiftX = parentTile.dirX * parentTile.driftDist * tEase;
+          const baseTileShiftY = parentTile.dirY * parentTile.driftDist * tEase;
+
+          const startX = frameLeft + b.origX + baseTileShiftX;
+          const startY = frameTop + b.origY + baseTileShiftY;
+
+          const jitterX = Math.sin(tSec * b.jitterSpeed + b.jitterOffset) * (3 * easeDeep);
+          const jitterY = Math.cos(tSec * b.jitterSpeed + b.jitterOffset) * (3 * easeDeep);
+
+          const curX = startX + b.destWorldX * easeDeep + jitterX;
+          const curY = startY + b.destWorldY * easeDeep + jitterY;
+
+          const toggle = Math.sin(tSec * 2.2 + b.jitterOffset) > 0.94;
+          const displayChar = toggle ? (b.char === '1' ? '0' : '1') : b.char;
+
+          const cyanMix = Math.min(1, easeDeep * 1.3);
+          const rFinal = Math.round(b.r * (1 - cyanMix * 0.75) + 0 * (cyanMix * 0.75));
+          const gFinal = Math.round(b.g * (1 - cyanMix * 0.3) + 240 * (cyanMix * 0.3));
+          const bFinal = Math.round(b.b * (1 - cyanMix * 0.2) + 255 * (cyanMix * 0.2));
+
+          const digitAlpha = binaryStageAlpha * Math.max(0.2, (0.35 + b.lum * 0.65)) * (1 - easeDeep * 0.25);
+
+          ctx.font = `600 ${b.fontSize}px 'Courier Prime', monospace`;
+          ctx.fillStyle = `rgba(${rFinal}, ${gFinal}, ${bFinal}, ${digitAlpha})`;
+
+          if (b.lum > 0.7 || toggle) {
+            ctx.shadowColor = '#00f0ff';
+            ctx.shadowBlur = 6 * (0.4 + easeDeep * 0.6);
+          } else {
+            ctx.shadowBlur = 0;
+          }
+
+          ctx.fillText(displayChar, curX, curY);
+        }
+        ctx.restore();
+      }
+    }
+
+    animFrameId = requestAnimationFrame(render);
+  }
+
+  if (img.complete) {
+    sampleImageAndBuildArchitecture();
+  } else {
+    img.addEventListener('load', sampleImageAndBuildArchitecture);
+  }
+
+  window.addEventListener('scroll', handleScroll, { passive: true });
+  window.addEventListener('resize', () => {
+    sampleImageAndBuildArchitecture();
+    handleScroll();
+  }, { passive: true });
+
+  handleScroll();
+  animFrameId = requestAnimationFrame(render);
+})();
+</script>
+<!-- SCRIPT: Hyper-Stream Data Highway Traversal Engine (EXPLORE CTA Action) -->
+<script>
+(function() {
+  const exploreBtn = document.getElementById('hero-explore-cta');
+  const warpCanvas = document.getElementById('hyper-stream-warp-canvas');
+  const hudOverlay = document.getElementById('warp-hud-overlay');
+  const hudText = document.getElementById('warp-hud-text');
+  const targetSection = document.getElementById('core-narrative');
+
+  if (!exploreBtn || !warpCanvas || !targetSection) return;
+
+  const wCtx = warpCanvas.getContext('2d');
+  let isWarping = false;
+
+  function resizeWarpCanvas() {
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    warpCanvas.width = Math.floor(window.innerWidth * dpr);
+    warpCanvas.height = Math.floor(window.innerHeight * dpr);
+    wCtx.setTransform(1, 0, 0, 1, 0, 0);
+    wCtx.scale(dpr, dpr);
+  }
+
+  window.addEventListener('resize', resizeWarpCanvas);
+  resizeWarpCanvas();
+
+  const HEX_CHARS = ['0', '1', '0x7F', '0x3A', '->', 'ACK', 'SYN', 'PIPE', '0xFF', '101', '010', '001', 'DAG', 'MEDALLION'];
+
+  exploreBtn.addEventListener('click', function(e) {
+    e.preventDefault();
+    if (isWarping) return;
+    isWarping = true;
+
+    resizeWarpCanvas();
+
+    const startY = window.pageYOffset || document.documentElement.scrollTop;
+    const targetRect = targetSection.getBoundingClientRect();
+    const destY = startY + targetRect.top - 70;
+    const distance = destY - startY;
+
+    warpCanvas.style.opacity = '1';
+    if (hudOverlay) {
+      hudOverlay.classList.remove('opacity-0');
+      hudOverlay.classList.add('opacity-100');
+    }
+
+    const numStreaks = 85;
+    const streaks = [];
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+
+    for (let i = 0; i < numStreaks; i++) {
+      streaks.push({
+        x: Math.random() * width,
+        y: Math.random() * height,
+        speed: 15 + Math.random() * 30,
+        len: 80 + Math.random() * 260,
+        width: 1 + Math.random() * 2.5,
+        char: HEX_CHARS[Math.floor(Math.random() * HEX_CHARS.length)],
+        isPacket: Math.random() > 0.45,
+        color: Math.random() > 0.3 ? '#00f0ff' : '#dbfcff',
+        alpha: 0.4 + Math.random() * 0.6
+      });
+    }
+
+    const duration = 1350;
+    const startTime = performance.now();
+
+    function easeInOutCubic(t) {
+      return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+    }
+
+    function animateWarp(now) {
+      const elapsed = now - startTime;
+      const progress = Math.min(1, elapsed / duration);
+      const ease = easeInOutCubic(progress);
+
+      const currentScroll = startY + distance * ease;
+      window.scrollTo(0, currentScroll);
+
+      if (hudText) {
+        if (progress < 0.35) {
+          hudText.innerText = '[INITIALIZING HIGHWAY // PACKET INGESTION BUFFER: ' + Math.round(progress * 280) + '%]';
+        } else if (progress < 0.75) {
+          hudText.innerText = '[TRAVERSING HIGHWAY // WARPING TO SECTION 01 // THROUGHPUT 40Gbps]';
+        } else {
+          hudText.innerText = '[TARGET ACQUIRED // LOCK ON: SECTION 01 // MEDALLION RESTORED]';
+        }
+      }
+
+      wCtx.clearRect(0, 0, width, height);
+
+      const speedMultiplier = 1 + Math.sin(progress * Math.PI) * 4.8;
+      const globalFade = Math.sin(progress * Math.PI);
+
+      wCtx.save();
+      for (let i = 0; i < streaks.length; i++) {
+        const s = streaks[i];
+        s.y -= s.speed * speedMultiplier;
+        if (s.y < -s.len) {
+          s.y = height + Math.random() * 80;
+          s.x = Math.random() * width;
+        }
+
+        const grad = wCtx.createLinearGradient(s.x, s.y, s.x, s.y + s.len);
+        grad.addColorStop(0, 'transparent');
+        grad.addColorStop(0.3, s.color);
+        grad.addColorStop(1, '#ffffff');
+
+        wCtx.strokeStyle = grad;
+        wCtx.lineWidth = s.width * (0.8 + speedMultiplier * 0.3);
+        wCtx.globalAlpha = s.alpha * globalFade;
+        wCtx.beginPath();
+        wCtx.moveTo(s.x, s.y + s.len);
+        wCtx.lineTo(s.x, s.y);
+        wCtx.stroke();
+
+        if (s.isPacket && progress > 0.15 && progress < 0.85) {
+          wCtx.font = '700 11px "JetBrains Mono", monospace';
+          wCtx.fillStyle = s.color;
+          wCtx.shadowColor = '#00f0ff';
+          wCtx.shadowBlur = 8;
+          wCtx.fillText(s.char, s.x + 6, s.y + 20);
+          wCtx.shadowBlur = 0;
+        }
+      }
+      wCtx.restore();
+
+      if (progress < 1) {
+        requestAnimationFrame(animateWarp);
+      } else {
+        warpCanvas.style.opacity = '0';
+        if (hudOverlay) {
+          hudOverlay.classList.remove('opacity-100');
+          hudOverlay.classList.add('opacity-0');
+        }
+        wCtx.clearRect(0, 0, width, height);
+
+        targetSection.classList.remove('warp-arrival-active');
+        void targetSection.offsetWidth;
+        targetSection.classList.add('warp-arrival-active');
+
+        setTimeout(function() {
+          targetSection.classList.remove('warp-arrival-active');
+          isWarping = false;
+        }, 1900);
+      }
+    }
+
+    requestAnimationFrame(animateWarp);
+  });
+})();
+</script>
+
+
+
+<!-- Navigation Interactivity Script -->
+<script>
+(function() {
+  // Mobile menu toggle
+  const menuBtn = document.getElementById('mobile-menu-btn');
+  const menu = document.getElementById('mobile-menu');
+  const menuIcon = document.getElementById('mobile-menu-icon');
+
+  if (menuBtn && menu) {
+    menuBtn.addEventListener('click', function(e) {
+      e.stopPropagation();
+      const isHidden = menu.classList.contains('hidden');
+      if (isHidden) {
+        menu.classList.remove('hidden');
+        if (menuIcon) menuIcon.textContent = 'close';
+      } else {
+        menu.classList.add('hidden');
+        if (menuIcon) menuIcon.textContent = 'menu';
+      }
+    });
+
+    // Close menu when clicking any mobile link
+    const mobileLinks = menu.querySelectorAll('a');
+    mobileLinks.forEach(function(link) {
+      link.addEventListener('click', function() {
+        menu.classList.add('hidden');
+        if (menuIcon) menuIcon.textContent = 'menu';
+      });
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', function(e) {
+      if (!menu.contains(e.target) && !menuBtn.contains(e.target)) {
+        menu.classList.add('hidden');
+        if (menuIcon) menuIcon.textContent = 'menu';
+      }
+    });
+  }
+
+  // Active navigation highlight on scroll
+  const sections = [
+    { id: 'about', el: document.getElementById('about') },
+    { id: 'education', el: document.getElementById('education') },
+    { id: 'projects', el: document.getElementById('projects') },
+    { id: 'certificates', el: document.getElementById('certificates') },
+    { id: 'connect', el: document.getElementById('connect') }
+  ];
+
+  const desktopLinks = document.querySelectorAll('#desktop-nav .nav-item');
+
+  function updateActiveNav() {
+    const scrollPos = window.scrollY + 140;
+    let currentId = '';
+
+    for (let i = 0; i < sections.length; i++) {
+      const s = sections[i];
+      if (s.el) {
+        const top = s.el.offsetTop;
+        const height = s.el.offsetHeight;
+        if (scrollPos >= top && scrollPos < top + height) {
+          currentId = s.id;
+          break;
+        }
+      }
+    }
+
+    desktopLinks.forEach(function(link) {
+      const target = link.getAttribute('data-target');
+      if (target === currentId) {
+        link.classList.add('bg-surface-container-high', 'text-primary-container', 'shadow-sm');
+        link.classList.remove('text-on-surface-variant');
+      } else {
+        link.classList.remove('bg-surface-container-high', 'text-primary-container', 'shadow-sm');
+        link.classList.add('text-on-surface-variant');
+      }
+    });
+  }
+
+  window.addEventListener('scroll', updateActiveNav, { passive: true });
+  updateActiveNav();
+})();
+</script>
+
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js').catch(() => {});
+  });
+}
+</script>
+</body></html>

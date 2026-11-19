@@ -1,0 +1,823 @@
+{
+  "name": "projects/3788835668473384046",
+  "title": "portfolio web",
+  "visibility": "PRIVATE",
+  "createTime": "2026-11-19T12:24:23.037497Z",
+  "updateTime": "2026-11-19T18:12:16.270642Z",
+  "projectType": "TEXT_TO_UI_PRO",
+  "thumbnailScreenshot": {
+    "name": "projects/3788835668473384046/screens/dcfec961b83b402aa100edfa0ef65435/fileEntries/screenshot",
+    "downloadUrl": "https://lh3.googleusercontent.com/aida/ALJJyrD64N0A-N4E0DKYUKRonHCJo6rhP9V51JS9KzKlYPAQAcmGfuZ5xug9qoYbrLRse1rsgyMbax-Cow21WySm4UkG3OeiNTUn8SjRzTEtEBj6VnhQbrS9jhB_JpiHftbKolW2vPzX2VILBTEsG4HJXlo0lPr9StM0QmxuADRQzKNIdkhp-zH_RXq34AUk-AZD1oSZU9xJ0u0bdvGhb-fqrRUIFBmXTYbb4EjnxhrpsqWm"
+  },
+  "origin": "WEB",
+  "deviceType": "DESKTOP",
+  "designTheme": {
+    "colorMode": "DARK",
+    "font": "SPACE_GROTESK",
+    "roundness": "ROUND_FOUR",
+    "customColor": "#00f0ff",
+    "headlineFont": "SPACE_GROTESK",
+    "bodyFont": "PLUS_JAKARTA_SANS",
+    "labelFont": "JETBRAINS_MONO",
+    "namedColors": {
+      "on_error_container": "#ffdad6",
+      "on_primary": "#00363a",
+      "on_tertiary": "#3c0091",
+      "surface_variant": "#32353c",
+      "on_secondary": "#002e6b",
+      "tertiary_container": "#e1d2ff",
+      "secondary_fixed_dim": "#aec6ff",
+      "on_secondary_fixed_variant": "#004397",
+      "secondary_fixed": "#d8e2ff",
+      "primary_fixed_dim": "#00dbe9",
+      "error": "#ffb4ab",
+      "surface": "#10131a",
+      "on_surface_variant": "#b9cacb",
+      "surface_container_low": "#191c22",
+      "on_secondary_fixed": "#001a43",
+      "outline": "#849495",
+      "background": "#10131a",
+      "on_surface": "#e0e2eb",
+      "tertiary_fixed": "#e9ddff",
+      "on_tertiary_fixed_variant": "#5516be",
+      "surface_tint": "#00dbe9",
+      "surface_bright": "#363940",
+      "primary_container": "#00f0ff",
+      "tertiary_fixed_dim": "#d0bcff",
+      "surface_container_high": "#272a31",
+      "on_tertiary_container": "#6d3bd7",
+      "on_primary_fixed_variant": "#004f54",
+      "error_container": "#93000a",
+      "secondary": "#aec6ff",
+      "on_error": "#690005",
+      "primary": "#dbfcff",
+      "surface_container_lowest": "#0b0e14",
+      "outline_variant": "#3b494b",
+      "on_secondary_container": "#00275e",
+      "inverse_on_surface": "#2d3037",
+      "on_background": "#e0e2eb",
+      "secondary_container": "#508eff",
+      "inverse_surface": "#e0e2eb",
+      "surface_dim": "#10131a",
+      "tertiary": "#faf3ff",
+      "primary_fixed": "#7df4ff",
+      "surface_container_highest": "#32353c",
+      "on_tertiary_fixed": "#23005c",
+      "surface_container": "#1d2026",
+      "on_primary_container": "#006970",
+      "on_primary_fixed": "#002022",
+      "inverse_primary": "#006970"
+    },
+    "designMd": "---\nname: Obsidian Pipeline\ncolors:\n  surface: '#10131a'\n  surface-dim: '#10131a'\n  surface-bright: '#363940'\n  surface-container-lowest: '#0b0e14'\n  surface-container-low: '#191c22'\n  surface-container: '#1d2026'\n  surface-container-high: '#272a31'\n  surface-container-highest: '#32353c'\n  on-surface: '#e0e2eb'\n  on-surface-variant: '#b9cacb'\n  inverse-surface: '#e0e2eb'\n  inverse-on-surface: '#2d3037'\n  outline: '#849495'\n  outline-variant: '#3b494b'\n  surface-tint: '#00dbe9'\n  primary: '#dbfcff'\n  on-primary: '#00363a'\n  primary-container: '#00f0ff'\n  on-primary-container: '#006970'\n  inverse-primary: '#006970'\n  secondary: '#aec6ff'\n  on-secondary: '#002e6b'\n  secondary-container: '#508eff'\n  on-secondary-container: '#00275e'\n  tertiary: '#faf3ff'\n  on-tertiary: '#3c0091'\n  tertiary-container: '#e1d2ff'\n  on-tertiary-container: '#6d3bd7'\n  error: '#ffb4ab'\n  on-error: '#690005'\n  error-container: '#93000a'\n  on-error-container: '#ffdad6'\n  primary-fixed: '#7df4ff'\n  primary-fixed-dim: '#00dbe9'\n  on-primary-fixed: '#002022'\n  on-primary-fixed-variant: '#004f54'\n  secondary-fixed: '#d8e2ff'\n  secondary-fixed-dim: '#aec6ff'\n  on-secondary-fixed: '#001a43'\n  on-secondary-fixed-variant: '#004397'\n  tertiary-fixed: '#e9ddff'\n  tertiary-fixed-dim: '#d0bcff'\n  on-tertiary-fixed: '#23005c'\n  on-tertiary-fixed-variant: '#5516be'\n  background: '#10131a'\n  on-background: '#e0e2eb'\n  surface-variant: '#32353c'\ntypography:\n  headline-hero:\n    fontFamily: Space Grotesk\n    fontSize: 64px\n    fontWeight: '700'\n    lineHeight: 72px\n    letterSpacing: -0.04em\n  headline-hero-mobile:\n    fontFamily: Space Grotesk\n    fontSize: 36px\n    fontWeight: '700'\n    lineHeight: 44px\n    letterSpacing: -0.03em\n  headline-lg:\n    fontFamily: Space Grotesk\n    fontSize: 40px\n    fontWeight: '600'\n    lineHeight: 48px\n    letterSpacing: -0.03em\n  headline-lg-mobile:\n    fontFamily: Space Grotesk\n    fontSize: 28px\n    fontWeight: '600'\n    lineHeight: 36px\n    letterSpacing: -0.02em\n  headline-md:\n    fontFamily: Space Grotesk\n    fontSize: 24px\n    fontWeight: '600'\n    lineHeight: 32px\n    letterSpacing: -0.02em\n  headline-sm:\n    fontFamily: Space Grotesk\n    fontSize: 18px\n    fontWeight: '600'\n    lineHeight: 26px\n    letterSpacing: -0.01em\n  body-lg:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 18px\n    fontWeight: '400'\n    lineHeight: 28px\n  body-md:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 15px\n    fontWeight: '400'\n    lineHeight: 24px\n  body-sm:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 13px\n    fontWeight: '400'\n    lineHeight: 20px\n  code-inline:\n    fontFamily: JetBrains Mono\n    fontSize: 13px\n    fontWeight: '500'\n    lineHeight: 18px\n  code-block:\n    fontFamily: JetBrains Mono\n    fontSize: 14px\n    fontWeight: '400'\n    lineHeight: 22px\n  label-caps:\n    fontFamily: JetBrains Mono\n    fontSize: 11px\n    fontWeight: '600'\n    lineHeight: 16px\n    letterSpacing: 0.08em\n  stat-counter:\n    fontFamily: JetBrains Mono\n    fontSize: 32px\n    fontWeight: '700'\n    lineHeight: 40px\n    letterSpacing: -0.02em\nrounded:\n  sm: 0.125rem\n  DEFAULT: 0.25rem\n  md: 0.375rem\n  lg: 0.5rem\n  xl: 0.75rem\n  full: 9999px\nspacing:\n  gutter: 1.5rem\n  gutter-mobile: 1rem\n  margin: 3rem\n  margin-mobile: 1.25rem\n  space-xs: 0.25rem\n  space-sm: 0.5rem\n  space-md: 1rem\n  space-lg: 1.5rem\n  space-xl: 2.5rem\n---\n\n## Brand & Style\n\nThe design system establishes a high-impact, cinematic portfolio tailored for modern data engineering and distributed systems architecture. It captures the precision of mission-critical data pipelines and the sophistication of deep-tech computing.\n\nThe aesthetic fuses **Cinematic Minimalism** with **Cybernetic Precision**:\n- **Tone:** Authoritative, high-performance, calculated, and immersive.\n- **Target Audience:** Engineering directors, quantitative recruiters, distributed systems leads, and technical founders.\n- **Visual Direction:** Layered dark canvas foundations (carbon to deep obsidian), energized by luminous cyan logic vectors and controlled ultraviolet pulses. Structural elements utilize subtle hairline borders (1px), subdued ambient lighting, and frosted telemetry panels to evoke an advanced observability dashboard rather than a standard personal resume.\n\n## Colors\n\nThe palette operates in strict dark mode, built around infinite depths punctuated by electric logic signals:\n\n- **Canvas & Dark Surfaces:**\n  - `Canvas / Deep Obsidian`: `#05070A` (base view level)\n  - `Surface / Midnight Carbon`: `#080B11` (primary content background)\n  - `Surface / Elevated Glass`: `#0F1724` with variable alpha (cards, overlays, floating monitors)\n  - `Surface / Interactive Hover`: `#172338`\n- **Signal & Neon Hierarchy:**\n  - `Primary / Electric Cyan` (`#00F0FF`): Active data streams, high-priority CTAs, primary execution indicators.\n  - `Secondary / Signal Blue` (`#0070F3`): System connections, link anchors, pipeline node transitions.\n  - `Tertiary / Cyber Violet` (`#8B5CF6`): Secondary tags, schema signatures, cluster metadata.\n  - `Accent / Pulsar Magenta` (`#7928CA`): Rare callouts, benchmark peaks, and dynamic gradient endpoints.\n- **Data & Text Contrast:**\n  - `Text Primary`: `#F1F5F9` (96% contrast on dark base)\n  - `Text Secondary`: `#94A3B8` (metadata, descriptions, labels)\n  - `Text Code Muted`: `#64748B` (comments, structural syntax tokens)\n  - `Border / Glow Accent`: `rgba(0, 240, 255, 0.2)`\n  - `Border / Subdued Glass`: `rgba(255, 255, 255, 0.08)`\n\n## Typography\n\nTypography establishes an intentional contrast between technological engineering discipline and human-readable interfaces:\n\n- **Headings (Space Grotesk):** Geometric proportions with sculpted ink traps give headlines a distinct architectural presence. Kerning should remain slightly tightened (`-0.02em` to `-0.04em`) to maintain density.\n- **Body Copy (Plus Jakarta Sans):** Chosen for optimal legibility at micro and standard sizes against high-contrast, dark glass backgrounds.\n- **Telemetry, Code & Metrics (JetBrains Mono):** Reserved for pipeline specs, database execution metrics, DAG statuses, and code snippets. All caps labels (`label-caps`) enforce telemetry styling using positive letter tracking.\n\n## Layout & Spacing\n\nThe layout operates on a disciplined 12-column responsive fluid grid with strict mathematical cadence:\n\n- **Grid Architecture:**\n  - **Desktop (\u2265 1200px):** 12 columns, max container width of `1280px`, `1.5rem` gutters, and `3rem` canvas margins.\n  - **Tablet (768px - 1199px):** 8 columns, `1.5rem` gutters, and `2rem` canvas margins.\n  - **Mobile (< 768px):** 4 columns, `1rem` gutters, and `1.25rem` outer canvas margins.\n- **Vertical Cadence & Sectioning:**\n  - Major portfolio sections (e.g., Architecture Showcase, Benchmarks, Interactive Terminal) utilize `5rem` to `7rem` vertical separation to let luminous components breathe against the midnight canvas.\n  - Component internals strictly adhere to 4px/8px incremental tokens (`space-xs` through `space-xl`).\n- **Data Flow Containers:** Complex schemas (DAG visualizations, database pipelines) break into full container widths with horizontal panning support enabled for small viewports.\n\n## Elevation & Depth\n\nVisual hierarchy uses translucent atmospheric strata, optical edge-refractions, and backplane glows:\n\n- **Layer 0 (Background Horizon):** Pure `#05070A` overlaid with a faint geometric blueprint grid (`1px` lines spaced `40px` apart, color `rgba(255, 255, 255, 0.02)`).\n- **Layer 1 (Sub-surface Panels):** Background `#080B11` with `border: 1px solid rgba(255, 255, 255, 0.05)`.\n- **Layer 2 (Glassmorphic Interface Cards):**\n  - Background: `rgba(15, 23, 36, 0.65)`.\n  - Backdrop Filter: `blur(16px) saturate(180%)`.\n  - Edge Outline: `1px solid rgba(255, 255, 255, 0.09)`.\n  - Shadow: `0 8px 32px -4px rgba(0, 0, 0, 0.6)`.\n- **Layer 3 (Neon Active State & Hover):**\n  - Edge Glow: `1px solid rgba(0, 240, 255, 0.5)`.\n  - Ambient Shadow: `0 0 24px -4px rgba(0, 240, 255, 0.25), 0 16px 40px -8px rgba(0, 0, 0, 0.8)`.\n- **Layer 4 (Modals & Command Palettes):**\n  - Background: `rgba(10, 14, 23, 0.92)`.\n  - Backdrop Filter: `blur(24px)`.\n  - Top border linear highlight: `1px solid linear-gradient(90deg, transparent, rgba(0, 240, 255, 0.4), transparent)`.\n\n## Shapes\n\nThe design embraces technical, angular precision via **Soft (Level 1)** rounding:\n- Base interactive elements (buttons, inputs, metric tiles) use `0.25rem` (4px).\n- Surface containers and data cards use `rounded-lg` (`0.5rem` / 8px).\n- Floating terminal modals and code playgrounds use `rounded-xl` (`0.75rem` / 12px).\n- Pipeline node dots, status pulses, and icon container badges may apply complete spherical border radii (`9999px`) where circular geometry represents network nodes or state indicators.\n\n## Components\n\n### Buttons\n- **Primary Cyber Button:**\n  - Base: High-contrast Electric Cyan background (`#00F0FF`), dark slate text (`#05070A`), `font-weight: 600`, `roundedness: 4px`.\n  - Shadow: `0 0 18px rgba(0, 240, 255, 0.35)`.\n  - Hover: Background escalates to pure white (`#FFFFFF`), shadow intensifies to `0 0 28px rgba(0, 240, 255, 0.6)`.\n- **Secondary Ghost Terminal Button:**\n  - Base: `rgba(15, 23, 36, 0.6)`, 1px border `rgba(255, 255, 255, 0.12)`, text `#F1F5F9`.\n  - Hover: Border color snaps to `#0070F3`, text turns `#00F0FF`, background fills to `rgba(0, 112, 243, 0.1)`.\n\n### Architecture & Pipeline Cards\n- Enclosed with the Layer 2 glassmorphic style.\n- Includes a top right monospaced badge showing ingestion latency or cluster runtimes.\n- Hover reveals a localized 1px moving gradient border tracing the perimeter and a subtle cyan ambient backplane glow.\n\n### Interactive Telemetry & Chips\n- **Pipeline Status Badges:** Monospace text in all-caps (`label-caps`).\n  - Active: Text `#00F0FF`, background `rgba(0, 240, 255, 0.08)`, 1px border `rgba(0, 240, 255, 0.25)`. A 6px circular dot pulses on the left edge.\n  - Processing: Text `#8B5CF6`, background `rgba(139, 92, 246, 0.08)`, border `rgba(139, 92, 246, 0.25)`.\n- **Tech Stack Chips:** Crisp 4px radius pill, dark carbon background, subtle border, accompanied by monochrome vector icons (e.g., Apache Spark, Kafka, Snowflake, Rust, DBT, Kubernetes).\n\n### Code & Execution Terminal\n- Header contains simulated traffic lights styled as minimal circular indicators (carbon, slate, cyan).\n- Background: Deep Obsidian `#05070A`.\n- Left-aligned line numbers in `#64748B`.\n- Integrated copy action with instant feedback (`[COPIED]` in `#00F0FF`).\n\n### Metrics & Benchmark Panels\n- Composed of large JetBrains Mono stat digits (`stat-counter`) in neon gradients (cyan to signal blue).\n- Paired with micro data labels (`label-caps`) displaying throughput metrics (e.g., `1.2M EPS`, `p99 < 12ms`, `TB/day`).",
+    "colorVariant": "FIDELITY",
+    "overridePrimaryColor": "#00f0ff",
+    "overrideSecondaryColor": "#0070f3",
+    "overrideTertiaryColor": "#8b5cf6",
+    "overrideNeutralColor": "#080b11",
+    "spacingScale": 2,
+    "typography": {
+      "headline-hero": {
+        "fontFamily": "Space Grotesk",
+        "fontSize": "64px",
+        "fontWeight": "700",
+        "lineHeight": "72px",
+        "letterSpacing": "-0.04em"
+      },
+      "body-md": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "24px"
+      },
+      "headline-lg": {
+        "fontFamily": "Space Grotesk",
+        "fontSize": "40px",
+        "fontWeight": "600",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.03em"
+      },
+      "headline-sm": {
+        "fontFamily": "Space Grotesk",
+        "fontSize": "18px",
+        "fontWeight": "600",
+        "lineHeight": "26px",
+        "letterSpacing": "-0.01em"
+      },
+      "label-caps": {
+        "fontFamily": "JetBrains Mono",
+        "fontSize": "11px",
+        "fontWeight": "600",
+        "lineHeight": "16px",
+        "letterSpacing": "0.08em"
+      },
+      "code-block": {
+        "fontFamily": "JetBrains Mono",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "22px"
+      },
+      "headline-hero-mobile": {
+        "fontFamily": "Space Grotesk",
+        "fontSize": "36px",
+        "fontWeight": "700",
+        "lineHeight": "44px",
+        "letterSpacing": "-0.03em"
+      },
+      "body-sm": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "lineHeight": "20px"
+      },
+      "stat-counter": {
+        "fontFamily": "JetBrains Mono",
+        "fontSize": "32px",
+        "fontWeight": "700",
+        "lineHeight": "40px",
+        "letterSpacing": "-0.02em"
+      },
+      "body-lg": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "28px"
+      },
+      "headline-md": {
+        "fontFamily": "Space Grotesk",
+        "fontSize": "24px",
+        "fontWeight": "600",
+        "lineHeight": "32px",
+        "letterSpacing": "-0.02em"
+      },
+      "headline-lg-mobile": {
+        "fontFamily": "Space Grotesk",
+        "fontSize": "28px",
+        "fontWeight": "600",
+        "lineHeight": "36px",
+        "letterSpacing": "-0.02em"
+      },
+      "code-inline": {
+        "fontFamily": "JetBrains Mono",
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "lineHeight": "18px"
+      }
+    },
+    "spacing": {
+      "space-lg": "1.5rem",
+      "margin": "3rem",
+      "space-xs": "0.25rem",
+      "space-md": "1rem",
+      "space-sm": "0.5rem",
+      "gutter-mobile": "1rem",
+      "margin-mobile": "1.25rem",
+      "space-xl": "2.5rem",
+      "gutter": "1.5rem"
+    },
+    "headlineFontFamily": "Space Grotesk",
+    "bodyFontFamily": "Plus Jakarta Sans",
+    "labelFontFamily": "JetBrains Mono"
+  },
+  "screenInstances": [
+    {
+      "id": "02e2c504f7454f5797bcea77eacae324",
+      "sourceScreen": "projects/3788835668473384046/screens/02e2c504f7454f5797bcea77eacae324",
+      "x": 6712,
+      "y": 19539,
+      "width": 1280,
+      "height": 1024,
+      "label": "amrrtthh | Data Engineer Portfolio (Hero Social Links)",
+      "hidden": true
+    },
+    {
+      "id": "07fd8e581aaf4348908fb7dafc0e644e",
+      "sourceScreen": "projects/3788835668473384046/screens/07fd8e581aaf4348908fb7dafc0e644e",
+      "x": 1356,
+      "y": -134,
+      "width": 1280,
+      "height": 6850,
+      "label": "Alex Rivera | Aspiring Data Engineer Portfolio (Binary Matrix Reveal)",
+      "hidden": true
+    },
+    {
+      "id": "10095ab4d8424eada02603b7ea51b939",
+      "sourceScreen": "projects/3788835668473384046/screens/6e6c7cbee6244723bb546a79cb3fcea5",
+      "x": 2061,
+      "y": 3231,
+      "width": 1280,
+      "height": 2867,
+      "label": "amrrtthh | Data Engineer Portfolio (Endless Looping Carousel + Ambient Matrix)",
+      "hidden": true
+    },
+    {
+      "id": "10a4fe1b94564d0fa60957a0efdd0df5",
+      "sourceScreen": "projects/3788835668473384046/screens/10a4fe1b94564d0fa60957a0efdd0df5",
+      "x": 3986,
+      "y": -128,
+      "width": 1280,
+      "height": 1024,
+      "label": "Alex Rivera | Aspiring Data Engineer Portfolio (Full-Screen Binary Matrix)",
+      "hidden": true
+    },
+    {
+      "id": "15922e96f018418fa9b1410bf5c82c66",
+      "sourceScreen": "projects/3788835668473384046/screens/15922e96f018418fa9b1410bf5c82c66",
+      "x": -54,
+      "y": 15543,
+      "width": 1280,
+      "height": 3808,
+      "label": "amrrtthh | Data Engineer Portfolio (Optimized Certificates Carousel)",
+      "hidden": true
+    },
+    {
+      "id": "16ce14e1-0086-4933-9b70-c4237d8e0e20",
+      "sourceScreen": "projects/3788835668473384046/screens/11139688018285662502",
+      "x": 956,
+      "y": 5603,
+      "width": 180,
+      "height": 143,
+      "label": "download.png",
+      "hidden": true,
+      "type": "SCREEN_INSTANCE",
+      "isResized": true
+    },
+    {
+      "id": "1a475dc7a0a7484c9f396b50ae95e2cc",
+      "sourceScreen": "projects/3788835668473384046/screens/1a475dc7a0a7484c9f396b50ae95e2cc",
+      "x": 1289,
+      "y": 15543,
+      "width": 1280,
+      "height": 3808,
+      "label": "amrrtthh | Data Engineer Portfolio (Optimized Certificates Carousel)",
+      "hidden": true
+    },
+    {
+      "id": "1ad32b52-25e4-4bed-879d-1e25052ceba4",
+      "sourceScreen": "projects/3788835668473384046/screens/10071481066500311188",
+      "x": 577,
+      "y": 5833,
+      "width": 512,
+      "height": 205,
+      "label": "image.png",
+      "type": "SCREEN_INSTANCE"
+    },
+    {
+      "id": "1be78f08ee5d4d34aab40b5879756af9",
+      "sourceScreen": "projects/3788835668473384046/screens/1be78f08ee5d4d34aab40b5879756af9",
+      "x": 8018,
+      "y": -128,
+      "width": 1280,
+      "height": 1024,
+      "label": "Alex Rivera | Aspiring Data Engineer Portfolio (Continuity Binary Shatter)",
+      "hidden": true
+    },
+    {
+      "id": "1cf7176c83394911b0ffd619e8caf381",
+      "sourceScreen": "projects/3788835668473384046/screens/1cf7176c83394911b0ffd619e8caf381",
+      "x": 1901,
+      "y": 3430,
+      "width": 1280,
+      "height": 2867,
+      "label": "amrrtthh | Data Engineer Portfolio (Endless Looping Project Carousel)",
+      "hidden": true
+    },
+    {
+      "id": "1e98dccdaf5b45be8a23fcdb6c7ebe38",
+      "sourceScreen": "projects/3788835668473384046/screens/1e98dccdaf5b45be8a23fcdb6c7ebe38",
+      "x": 5417,
+      "y": 3430,
+      "width": 1280,
+      "height": 1024,
+      "label": "amrrtthh | Data Engineer Portfolio (Endless Looping Project Carousel)",
+      "hidden": true
+    },
+    {
+      "id": "269e02181901400c80c975c3eca66fc0",
+      "sourceScreen": "projects/3788835668473384046/screens/4dbbd774f93b4e78bdffa55cfa432c20",
+      "x": 7851,
+      "y": 7206,
+      "width": 1280,
+      "height": 2867,
+      "label": "amrrtthh | Data Engineer Portfolio (Smooth Unidirectional Carousel)",
+      "hidden": true,
+      "isResized": true
+    },
+    {
+      "id": "2c18d5fae5e7496bb05a0c4a06a8615a",
+      "sourceScreen": "projects/3788835668473384046/screens/2c18d5fae5e7496bb05a0c4a06a8615a",
+      "y": 24481,
+      "width": 1280,
+      "height": 4907,
+      "label": "amrrtthh | Data Engineer Portfolio (Stacked Certificates)",
+      "hidden": true
+    },
+    {
+      "id": "3087e3ccfb2d436d9b979bd143220d26",
+      "sourceScreen": "projects/3788835668473384046/screens/3087e3ccfb2d436d9b979bd143220d26",
+      "x": 4336,
+      "y": 105,
+      "width": 1280,
+      "height": 1024,
+      "label": "Data Engineer Portfolio & Systems Hub",
+      "hidden": true
+    },
+    {
+      "id": "3312ed88-09a9-4059-969c-3cd116fa9754",
+      "sourceScreen": "projects/3788835668473384046/screens/17684480496469247536",
+      "x": 677,
+      "y": 3290,
+      "width": 277,
+      "height": 492,
+      "label": "IMG_3935.jpeg",
+      "type": "SCREEN_INSTANCE",
+      "isResized": true
+    },
+    {
+      "id": "3493521ea8ed4681ac29bba1201199e4",
+      "sourceScreen": "projects/3788835668473384046/screens/3493521ea8ed4681ac29bba1201199e4",
+      "x": 5368,
+      "y": 19539,
+      "width": 1280,
+      "height": 4602,
+      "label": "amrrtthh | Data Engineer Portfolio (Hero Social Links)",
+      "hidden": true,
+      "isFavourite": true
+    },
+    {
+      "id": "3cf45f2701ba41f39240a1c71c007667",
+      "sourceScreen": "projects/3788835668473384046/screens/3cf45f2701ba41f39240a1c71c007667",
+      "x": 6674,
+      "y": -128,
+      "width": 1280,
+      "height": 1024,
+      "label": "Alex Rivera | Aspiring Data Engineer Portfolio (Continuity Binary Shatter)",
+      "hidden": true
+    },
+    {
+      "id": "4c0cd4c350e04c85ad2c49596762b74d",
+      "sourceScreen": "projects/3788835668473384046/screens/4c0cd4c350e04c85ad2c49596762b74d",
+      "x": 3986,
+      "y": -128,
+      "width": 1280,
+      "height": 6705,
+      "label": "Alex Rivera | Aspiring Data Engineer Portfolio (Continuity Binary Shatter)",
+      "hidden": true
+    },
+    {
+      "id": "5ae3580d-ba93-442a-8c21-8f8e0f38bfeb",
+      "sourceScreen": "projects/3788835668473384046/screens/18053202546129997487",
+      "y": 9999,
+      "width": 341,
+      "height": 337,
+      "label": "image.png",
+      "type": "SCREEN_INSTANCE"
+    },
+    {
+      "id": "5c3c9c389eef4c21bc7c99dd28a09ff3",
+      "sourceScreen": "projects/3788835668473384046/screens/e6d74795ab224b2fb5b9694b1e0ab829",
+      "x": 5163,
+      "y": 7206,
+      "width": 1280,
+      "height": 2867,
+      "label": "amrrtthh | Data Engineer Portfolio (True Infinite Circular Carousel)",
+      "hidden": true
+    },
+    {
+      "id": "5e5162ccce934d6596027995ff3a0b49",
+      "sourceScreen": "projects/3788835668473384046/screens/5e5162ccce934d6596027995ff3a0b49",
+      "x": 4024,
+      "y": 19539,
+      "width": 1280,
+      "height": 4602,
+      "label": "amrrtthh | Data Engineer Portfolio (Centered Blue Carousel Buttons)",
+      "hidden": true
+    },
+    {
+      "id": "633f187132de4cd4b139da4c7f8999d9",
+      "sourceScreen": "projects/3788835668473384046/screens/633f187132de4cd4b139da4c7f8999d9",
+      "x": 2344,
+      "y": 5861,
+      "width": 1280,
+      "height": 4760,
+      "label": "amrrtthh | Data Engineer Portfolio (Optimized Certificates Carousel)",
+      "isFavourite": true
+    },
+    {
+      "id": "65c24184dc6742f3a15a09d7c26277a5",
+      "sourceScreen": "projects/3788835668473384046/screens/65c24184dc6742f3a15a09d7c26277a5",
+      "x": 3552,
+      "y": 12,
+      "width": 1280,
+      "height": 6322,
+      "label": "Alex Rivera | Aspiring Data Engineer Portfolio (Preset 1 Binary Shatter)",
+      "hidden": true
+    },
+    {
+      "id": "690a0861-582a-49e8-a1a0-bf26298da261",
+      "sourceScreen": "projects/3788835668473384046/screens/5357099517434566112",
+      "x": 2880,
+      "y": 14888,
+      "width": 512,
+      "height": 362,
+      "label": "certificate course_page-0001.jpg",
+      "type": "SCREEN_INSTANCE"
+    },
+    {
+      "id": "6af17c5d293544f19433e167b3232c14",
+      "sourceScreen": "projects/3788835668473384046/screens/6af17c5d293544f19433e167b3232c14",
+      "x": 5330,
+      "y": -128,
+      "width": 1280,
+      "height": 1024,
+      "label": "Data Engineer Portfolio Showcase",
+      "hidden": true
+    },
+    {
+      "id": "6d776b3748944355ae0d427a67efee98",
+      "sourceScreen": "projects/3788835668473384046/screens/6d776b3748944355ae0d427a67efee98",
+      "x": 1899,
+      "y": -105,
+      "width": 1280,
+      "height": 6249,
+      "label": "Alex Rivera | Aspiring Data Engineer Portfolio (Continuity Binary Shatter)",
+      "hidden": true
+    },
+    {
+      "id": "6f9844a6396e443db7546e1a08628856",
+      "sourceScreen": "projects/3788835668473384046/screens/6f9844a6396e443db7546e1a08628856",
+      "x": -153,
+      "y": 11355,
+      "width": 1280,
+      "height": 3760,
+      "label": "amrrtthh | Data Engineer Portfolio (Linked GitHub Repos)",
+      "hidden": true
+    },
+    {
+      "id": "794341ed-3bc3-4c70-8499-a3bf365962dd",
+      "sourceScreen": "projects/3788835668473384046/screens/5357099517434567256",
+      "x": 576,
+      "y": 14888,
+      "width": 512,
+      "height": 316,
+      "label": "Amrith Kaggle- Python.png",
+      "type": "SCREEN_INSTANCE"
+    },
+    {
+      "id": "800409b5-8f6d-4cdf-b82f-946a4db81475",
+      "sourceScreen": "projects/3788835668473384046/screens/5357099517434565374",
+      "x": 2304,
+      "y": 14888,
+      "width": 512,
+      "height": 396,
+      "label": "career essential.jpg",
+      "type": "SCREEN_INSTANCE"
+    },
+    {
+      "id": "854c7965-4bc7-43c9-8499-4dffdeb76622",
+      "sourceScreen": "projects/3788835668473384046/screens/8594301296427349159",
+      "y": 9406,
+      "width": 341,
+      "height": 337,
+      "label": "image.png",
+      "type": "SCREEN_INSTANCE"
+    },
+    {
+      "id": "867a6bd9-beeb-41a1-bd3c-dea0123abd74",
+      "sourceScreen": "projects/3788835668473384046/screens/14698110750257005555",
+      "x": 712,
+      "y": 6602,
+      "width": 307,
+      "height": 332,
+      "label": "image.png",
+      "type": "SCREEN_INSTANCE"
+    },
+    {
+      "id": "8d528a2f-7cbc-40a3-92a5-3bad8ee52c61",
+      "sourceScreen": "projects/3788835668473384046/screens/5051801368485693691",
+      "y": 10592,
+      "width": 512,
+      "height": 409,
+      "label": "image.png",
+      "type": "SCREEN_INSTANCE"
+    },
+    {
+      "id": "8dfeb589350f405cbc425e72e1a22f8e",
+      "sourceScreen": "projects/3788835668473384046/screens/8dfeb589350f405cbc425e72e1a22f8e",
+      "x": 5330,
+      "y": 12,
+      "width": 1280,
+      "height": 1024,
+      "label": "amrrtthh | Data Engineer Portfolio (Continuous Ambient Binary Matrix)",
+      "hidden": true
+    },
+    {
+      "id": "90abc99beb154faab81a235cca736ada",
+      "sourceScreen": "projects/3788835668473384046/screens/90abc99beb154faab81a235cca736ada",
+      "x": 3781,
+      "y": 3480,
+      "width": 1280,
+      "height": 2867,
+      "label": "amrrtthh | Data Engineer Portfolio (Endless Looping Carousel + Ambient Matrix)",
+      "hidden": true
+    },
+    {
+      "id": "9a95712329324de39b17774fae362cfa",
+      "sourceScreen": "projects/3788835668473384046/screens/a3c483bd8f0a42a193d2c5c8b423911d",
+      "x": 6507,
+      "y": 7206,
+      "width": 1280,
+      "height": 2867,
+      "label": "amrrtthh | Data Engineer Portfolio (Strictly Unidirectional Circular Carousel)",
+      "hidden": true
+    },
+    {
+      "id": "9cbd83f9-f0d3-4112-aaff-6cc1b9e6e45f",
+      "sourceScreen": "projects/3788835668473384046/screens/7103211570338444895",
+      "y": 11257,
+      "width": 512,
+      "height": 208,
+      "label": "image.png",
+      "type": "SCREEN_INSTANCE"
+    },
+    {
+      "id": "a0d35290-7dcb-4f9f-a133-1a411cf75199",
+      "sourceScreen": "projects/3788835668473384046/screens/16363557259664786457",
+      "x": 548,
+      "y": 5204,
+      "width": 512,
+      "height": 74,
+      "label": "image.png",
+      "type": "SCREEN_INSTANCE"
+    },
+    {
+      "id": "a442305bff704cc6b9bdec001093c61b",
+      "sourceScreen": "projects/3788835668473384046/screens/50c98a81dd3a4a0994e2a4d04f6eec45",
+      "x": 3819,
+      "y": 7206,
+      "width": 1280,
+      "height": 2867,
+      "label": "amrrtthh | Data Engineer Portfolio (Seamless Infinite Carousel)",
+      "hidden": true
+    },
+    {
+      "id": "a7dd37e820124d41953f3ceac79d8a82",
+      "sourceScreen": "projects/3788835668473384046/screens/a7dd37e820124d41953f3ceac79d8a82",
+      "x": 9833,
+      "y": 3451,
+      "width": 1280,
+      "height": 1024,
+      "label": "amrrtthh | Data Engineer Portfolio (Endless Looping Carousel + Ambient Matrix)",
+      "hidden": true
+    },
+    {
+      "id": "aae526570c3748709492461c2238be72",
+      "sourceScreen": "projects/3788835668473384046/screens/aae526570c3748709492461c2238be72",
+      "x": 6674,
+      "y": 12,
+      "width": 1280,
+      "height": 1024,
+      "label": "Alex Rivera | Aspiring Data Engineer Portfolio (Preset 1 Binary Shatter)",
+      "hidden": true
+    },
+    {
+      "id": "adfc7738-cdcf-4b29-9378-e741ca1cc06f",
+      "sourceScreen": "projects/3788835668473384046/screens/434705779841895264",
+      "x": 1005,
+      "y": 4896,
+      "width": 341,
+      "height": 337,
+      "label": "image.png",
+      "type": "SCREEN_INSTANCE"
+    },
+    {
+      "id": "assets_be61cc6a95024ed6bd1914ae973c30a0",
+      "x": 351,
+      "y": 4231,
+      "width": 960,
+      "height": 540,
+      "sourceAsset": "assets/be61cc6a95024ed6bd1914ae973c30a0",
+      "type": "DESIGN_SYSTEM_INSTANCE"
+    },
+    {
+      "id": "b5220850aa68437b8c99b951a20f1b34",
+      "sourceScreen": "projects/3788835668473384046/screens/244cf94e23224808a9877452822d01ec",
+      "x": 2633,
+      "y": 15543,
+      "width": 1280,
+      "height": 3808,
+      "label": "amrrtthh | Data Engineer Portfolio (Certificates with Company Names)",
+      "hidden": true
+    },
+    {
+      "id": "b888d5915612475b8020ab4c304ed385",
+      "sourceScreen": "projects/3788835668473384046/screens/b888d5915612475b8020ab4c304ed385",
+      "x": 8489,
+      "y": 2795,
+      "width": 1280,
+      "height": 1024,
+      "label": "amrrtthh | Data Engineer Portfolio (Continuous Ambient Binary Matrix)",
+      "hidden": true
+    },
+    {
+      "id": "c4ce4db7-ffc1-4f4b-83c2-0b36a38a211a",
+      "sourceScreen": "projects/3788835668473384046/screens/5357099517434566850",
+      "x": 3456,
+      "y": 14888,
+      "width": 512,
+      "height": 362,
+      "label": "infosys_page-0001.jpg",
+      "type": "SCREEN_INSTANCE"
+    },
+    {
+      "id": "ca121475262e45a9bc2f5ff8da077122",
+      "sourceScreen": "projects/3788835668473384046/screens/f4fa018f07b949cfaad57bb6de21e276",
+      "x": 1344,
+      "y": 19607,
+      "width": 1280,
+      "height": 4538,
+      "label": "amrrtthh | Data Engineer Portfolio (Expanded About Me)",
+      "hidden": true
+    },
+    {
+      "id": "ca6e90fee8584503bc213fe20e47212b",
+      "sourceScreen": "projects/3788835668473384046/screens/ca6e90fee8584503bc213fe20e47212b",
+      "x": 2688,
+      "y": 19607,
+      "width": 1280,
+      "height": 4535,
+      "label": "amrrtthh | Data Engineer Portfolio (Polished About Section)",
+      "hidden": true
+    },
+    {
+      "id": "cc7439d33c4c4607b51c628a46efac39",
+      "sourceScreen": "projects/3788835668473384046/screens/a8f8c3698309420b8e59a5f6e89bd686",
+      "y": 19607,
+      "width": 1280,
+      "height": 4225,
+      "label": "amrrtthh | Data Engineer Portfolio (With Dedicated About Section)",
+      "hidden": true
+    },
+    {
+      "id": "d47003c025d34b40b8de999760b43db9",
+      "sourceScreen": "projects/3788835668473384046/screens/d47003c025d34b40b8de999760b43db9",
+      "x": 1608,
+      "width": 1280,
+      "height": 6561,
+      "label": "Alex Rivera | Aspiring Data Engineer Portfolio",
+      "hidden": true
+    },
+    {
+      "id": "d799c101caee4ee58b1832cd73b5d7db",
+      "sourceScreen": "projects/3788835668473384046/screens/d799c101caee4ee58b1832cd73b5d7db",
+      "x": 2642,
+      "y": -128,
+      "width": 1280,
+      "height": 6714,
+      "label": "Alex Rivera | Aspiring Data Engineer Portfolio (Full-Screen Binary Matrix)",
+      "hidden": true
+    },
+    {
+      "id": "d7c77149-8605-4628-a517-2a1cdb7f3b2e",
+      "sourceScreen": "projects/3788835668473384046/screens/4734462738795340718",
+      "x": 1005,
+      "y": 3833,
+      "width": 341,
+      "height": 337,
+      "label": "image.png",
+      "hidden": true,
+      "type": "SCREEN_INSTANCE"
+    },
+    {
+      "id": "d82162b08f674cb5888695bda4fde26a",
+      "sourceScreen": "projects/3788835668473384046/screens/d82162b08f674cb5888695bda4fde26a",
+      "x": 5417,
+      "y": 5861,
+      "width": 1280,
+      "height": 1024,
+      "label": "amrrtthh | Data Engineer Portfolio (Optimized Certificates Carousel)",
+      "isResized": true
+    },
+    {
+      "id": "d9467f04-57b0-48db-bdb0-5be7e1493a47",
+      "sourceScreen": "projects/3788835668473384046/screens/7522194262614705203",
+      "x": 666,
+      "y": 7146,
+      "width": 256,
+      "height": 166,
+      "label": "download.jpg",
+      "hidden": true,
+      "type": "SCREEN_INSTANCE",
+      "isResized": true
+    },
+    {
+      "id": "dcfec961b83b402aa100edfa0ef65435",
+      "sourceScreen": "projects/3788835668473384046/screens/dcfec961b83b402aa100edfa0ef65435",
+      "width": 512,
+      "height": 286,
+      "label": "Cinematic editorial portrait of a modern stylish software engineer in a futuristic dark tech environment, ambient deep navy and electric blue rim lighting, subtle volumetric light streaks, sleek minimal tech studio, 8k resolution, award-winning photography, clean aesthetic",
+      "hidden": true
+    },
+    {
+      "id": "def0c2970d894f30a8e5e22353cdd639",
+      "sourceScreen": "projects/3788835668473384046/screens/def0c2970d894f30a8e5e22353cdd639",
+      "x": 5330,
+      "y": 12,
+      "width": 1280,
+      "height": 1024,
+      "label": "amrrtthh | Data Engineer Portfolio (Continuous Ambient Binary Matrix)",
+      "hidden": true
+    },
+    {
+      "id": "e03eb8096a204b8b821375827fad4711",
+      "sourceScreen": "projects/3788835668473384046/screens/e03eb8096a204b8b821375827fad4711",
+      "x": 4073,
+      "y": 3032,
+      "width": 1280,
+      "height": 3918,
+      "label": "amrrtthh | Data Engineer Portfolio (Endless Looping Project Carousel)",
+      "hidden": true
+    },
+    {
+      "id": "e3988665321f4e0b8c8369f07192ca3e",
+      "sourceScreen": "projects/3788835668473384046/screens/e3988665321f4e0b8c8369f07192ca3e",
+      "x": 1385,
+      "y": 3032,
+      "width": 1280,
+      "height": 6241,
+      "label": "amrrtthh | Data Engineer Portfolio (Continuous Ambient Binary Matrix)",
+      "hidden": true
+    },
+    {
+      "id": "e3d50400-9a7e-40b5-ac01-1799744f7be3",
+      "sourceScreen": "projects/3788835668473384046/screens/5357099517434564636",
+      "x": 1728,
+      "y": 14888,
+      "width": 512,
+      "height": 362,
+      "label": "c#.png",
+      "type": "SCREEN_INSTANCE"
+    },
+    {
+      "id": "eb13c45c-db28-4998-97ca-1ebc077cf59b",
+      "sourceScreen": "projects/3788835668473384046/screens/5357099517434567994",
+      "x": 1152,
+      "y": 14888,
+      "width": 512,
+      "height": 396,
+      "label": "aws security fundamentals_page-0001.jpg",
+      "type": "SCREEN_INSTANCE"
+    },
+    {
+      "id": "ec7f8067ffd746edb93493a24facc826",
+      "sourceScreen": "projects/3788835668473384046/screens/ec7f8067ffd746edb93493a24facc826",
+      "x": 3977,
+      "y": 15543,
+      "width": 1280,
+      "height": 1024,
+      "label": "amrrtthh | Data Engineer Portfolio (Certificates with Company Names)",
+      "hidden": true
+    },
+    {
+      "id": "ed5cf23d52774245bda868c2027ad9ba",
+      "sourceScreen": "projects/3788835668473384046/screens/ed5cf23d52774245bda868c2027ad9ba",
+      "y": 10592,
+      "width": 512,
+      "height": 917,
+      "label": "Isolate the young man with curly hair, glasses, moustache, smiling selfie expression, necklace, and shirt from the reference image. Completely remove the background so that the background is completely transparent or clean solid transparent/neutral, retaining only the subject and his phone. Preserve his exact facial features, curly hairstyle, glasses, expression, posture, and clothing from the reference image.",
+      "hidden": true
+    },
+    {
+      "id": "ffa94274-15ed-465d-a5e0-8412d4f87878",
+      "sourceScreen": "projects/3788835668473384046/screens/5357099517434566518",
+      "y": 14888,
+      "width": 512,
+      "height": 396,
+      "label": "AIFundamentalsFoundationsforUnderstandingAI_Badge20261016-20-fb5fdp_page-0001.jpg",
+      "type": "SCREEN_INSTANCE"
+    },
+    {
+      "id": "ffb70d9614ae436b8426287b9850ac79",
+      "sourceScreen": "projects/3788835668473384046/screens/ffb70d9614ae436b8426287b9850ac79",
+      "x": 5417,
+      "y": 5861,
+      "width": 390,
+      "height": 884,
+      "label": "amrrtthh | Data Engineer Portfolio (Optimized Certificates Carousel)",
+      "hidden": true,
+      "isResized": true
+    }
+  ],
+  "metadata": {
+    "userRole": "OWNER"
+  },
+  "sharingSettings": {
+    "permissions": [
+      {
+        "id": "869718873143",
+        "role": "OWNER",
+        "email": "amrithamroo2005@gmail.com"
+      }
+    ],
+    "accessType": "RESTRICTED"
+  }
+}

@@ -1,0 +1,1 @@
+var e=function(e){return e.mobile=`mobile`,e.desktop=`desktop`,e}({}),t=function(e){return e.light=`light`,e.dark=`dark`,e}({});export{t as n,e as t};
